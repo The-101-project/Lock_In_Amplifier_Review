@@ -5,7 +5,8 @@
 # LockInAmplifierReview
 
 Review on Lock In Amplifier Technology in order to design a LIA PCB.  
-This review had [started](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier) focusing on Analog LIA based on older and newest Analog Devices ICs, and discrete ICs implementations. In year 2021 the focus is changed to FPGA implementations
+This review had started [in my niwiki](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier) targeting a LIA design to be used up to 10 MHz, focusing on Analog LIA technology, based on older and newest Analog Devices ICs, and if possible to discrete ICs implementations.  
+ In year 2021/2022 the focus is changing to FPGA implementations
 
 
 ## Oscilloscope Lock In
@@ -14,7 +15,7 @@ watched 22 Feb 2022
 ### Mark Sch video
 Mark Sch Youtube video [Measuring signals buried in noise with an Oscilloscope](https://www.youtube.com/watch?v=vv-xkNa1Z9s&list=PL3Wrg9iIHo1tMckpT1HD4EOCn3QRuW9JZ&index=4)
 
-Using an external reference, all the noise gets averaged out leaving only the signal in phase with the reference. Similar to how a lock in amplifier works.
+'Using an external reference, all the noise gets averaged out leaving only the signal in phase with the reference. Similar to how a lock in amplifier works.'
 
 <img src="img/11.PNG" width = 800 />
 
