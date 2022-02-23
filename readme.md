@@ -1,7 +1,12 @@
-# [![](https://img.shields.io/badge/github--organization-The--101--project-blue.svg)](https://github.com/soldering-channel) [LockInAmplifierReview](https://github.com/The-101-project/LockInAmplifierReview) 
+[![](https://img.shields.io/badge/organization-The--101--project-blue.svg)](https://github.com/The-101-project) 
 
-[![](https://img.shields.io/badge/local--path-F:\prj\electronics\LockInAmplifierReview\doc-blue.svg)](https://github.com/soldering-channel)
 
+[![](https://img.shields.io/badge/remote-LockInAmplifierReview-green.svg)](https://github.com/The-101-project/LockInAmplifierReview) 
+
+
+[![](https://img.shields.io/badge/local-F:\prj\electronics\LockInAmplifierReview\doc-orange.svg)](https://github.com/soldering-channel)
+
+# LockInAmplifierReview
 
 Review on Lock In Amplifier Technology in order to design a LIA PCB.  
 This review started focusing on Analog LIA based on older and newest Analog Devices ICs, and discrete ICs implementations. In year 2021 the focus is changed to FPGA implementations
@@ -18,7 +23,7 @@ Using an external reference, all the noise gets averaged out leaving only the si
 <img src="img/11.PNG" width = 800 />
 
 * Chanell 1  oscilloscope is the received signal
-* Channel 2 is the generator signal
+* Channel 2 is the reference signal
 * Sync in ch2
 * Average function applied to ch1
 
