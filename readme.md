@@ -1,15 +1,11 @@
 [![](https://img.shields.io/badge/organization-The--101--project-blue.svg)](https://github.com/The-101-project) 
-
-
 [![](https://img.shields.io/badge/remote-LockInAmplifierReview-green.svg)](https://github.com/The-101-project/LockInAmplifierReview) 
-
-
-[![](https://img.shields.io/badge/local-F:\prj\electronics\LockInAmplifierReview\doc-orange.svg)](https://github.com/soldering-channel)
+[![](https://img.shields.io/badge/local-F:\prj\electronics\LockInAmplifierReview-orange.svg)](https://github.com/soldering-channel)
 
 # LockInAmplifierReview
 
 Review on Lock In Amplifier Technology in order to design a LIA PCB.  
-This review started focusing on Analog LIA based on older and newest Analog Devices ICs, and discrete ICs implementations. In year 2021 the focus is changed to FPGA implementations
+This review had [started](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier) focusing on Analog LIA based on older and newest Analog Devices ICs, and discrete ICs implementations. In year 2021 the focus is changed to FPGA implementations
 
 
 ## Oscilloscope Lock In
@@ -41,6 +37,10 @@ thread read 23 Feb 2022
 
 * [RS Red Pitaya products](https://uk.rs-online.com/web/b/Red-Pitaya/?cm_mmc=IE-PPC-DS3A-_-google-_-2_IE_EN_Suppliers_Red+Pitaya_Exact-_-Red+Pitaya_Pure-_-red+pitaya&matchtype=e&kwd-23777362289&gclid=Cj0KCQiA09eQBhCxARIsAAYRiynxqvpv4DSHIqQS35pyoZMyPBrtmIszIfYnIXlHKd1gOTzV2A6V3f8aArHlEALw_wcB&gclsrc=aw.ds)
 * [Red Pitaya Lock-in+PID Application](https://github.com/marceluda/rp_lock-in_pid/)
+
+
+## References 
+* [niwiki](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier)
 
 ## Nodes Slideck embedded to readme
 
