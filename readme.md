@@ -38,7 +38,7 @@ thread read 23 Feb 2022
 
 * [Oscilloscope as a lock-in amplifier (Rigol DS1054Z)](https://www.eevblog.com/forum/projects/oscilloscope-with-trace-averaging-as-a-lock-in-amplifier-(rigol-ds1054z)/)
 * book [Lock-in amplifiers: principles and applications (e-edition)](https://www.sites.google.com/site/lockinamplifiers/home)
-  * [Local copy](./F:\prj\electronics\LockInAmplifierReview\doc) 
+  * [Local copy](.\doc\Lock-inAmplifiersMlMeade.pdf) 
 
 ## Red Pitaya Lock In
 
