@@ -4,12 +4,16 @@
 
 # Lock_In_Amplifier_Review
 
-Review on Lock In Amplifier Technology in order to design a LIA PCB.  
-This review had started [in my niwiki](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier) targeting a LIA design to be used up to 10 MHz, focusing on Analog LIA technology, based on older and newest Analog Devices ICs, and if possible to discrete ICs implementations.
+Review on Lock In Amplifier Technology in order to design a LIA PCB.
+
+This review had started [in my niwiki](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier) targeting a LIA design to be used with unmodulated Reference frequency up to 10 MHz.  
+The focus initally was on Analogue LIA technology, based on older and newest Analog-Devices ICs, and if possible to discrete ICs implementations [like this](http://www.cappels.org/dproj/dlmom/dlmom.html).
 
  In year 2021/2022 the focus is changing to FPGA implementations  
- * DE0-nano FPGA board with Altera, costing €90, design an ADC/DAC piggy-back board, and create VHDL/Verilog LIA
- * Pitaya FPGA board with XILINX at €300, with integrated 125MHz 14bit ADC & DAC, and open source LIA firmware 
+ * DE0-nano FPGA board with Altera, costing €90
+   * Need to design from scratch an ADC/DAC piggy-back board, and create VHDL/Verilog LIA
+ * Pitaya FPGA board with XILINX at €300, with integrated `[125MHz 14bit ADC] & [125MHz 14bit DAC]`
+   * Evaluate/Use open source LIA firmware 
  * ...
 
 
@@ -28,7 +32,7 @@ Mark Sch Youtube video [Measuring signals buried in noise with an Oscilloscope](
 <img src="img/10.PNG" width = 800 />
 
 #### My Summary: 
-The value of this technique: **You only need a digital oscilloscope, to start testing/evaluting the Lock In Amplifier  concept**. No LIA needed!  
+The value of this technique: **You only need a digital oscilloscope, to start testing/evaluting the Lock In Amplifier  concept**. No LIA needed, but it is not replicating exactly the  LIA operation.  
 
 Steps:   
 * `Chanell-1`: Connect the received signal with AC coupling
@@ -66,6 +70,8 @@ width = 400
 
 ## References 
 * [niwiki](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier)
+* [A microcontroller-based lock-in amplifier for sub-milliohmresistance measurements Lars E. Bengtsson](http://physics.gu.se/~larsbn/Publikationer/pub4_2012.pdf)
+* A microcontroller-based lock-in amplifier for sub-milliohmresistance measurements Lars E. Bengtsson [Local copy](doc/pub4_2012.pdf) 
 
 ##  Slideck embedded to readme
 
