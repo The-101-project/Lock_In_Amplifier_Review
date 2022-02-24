@@ -1,8 +1,8 @@
 [![](https://img.shields.io/badge/organization-The--101--project-blue.svg)](https://github.com/The-101-project) 
-[![](https://img.shields.io/badge/remote-LockInAmplifierReview-green.svg)](https://github.com/The-101-project/LockInAmplifierReview) 
-[![](https://img.shields.io/badge/local-F:\prj\electronics\LockInAmplifierReview-orange.svg)](https://github.com/soldering-channel)
+[![](https://img.shields.io/badge/remote-Lock_In_Amplifier_Review-green.svg)](https://github.com/The-101-project/LockInAmplifierReview) 
+[![](https://img.shields.io/badge/local-F:\prj\electronics\Lock_In_Amplifier_Review-orange.svg)](https://github.com/soldering-channel)
 
-# LockInAmplifierReview
+# Lock_In_Amplifier_Review
 
 Review on Lock In Amplifier Technology in order to design a LIA PCB.  
 This review had started [in my niwiki](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier) targeting a LIA design to be used up to 10 MHz, focusing on Analog LIA technology, based on older and newest Analog Devices ICs, and if possible to discrete ICs implementations.  
