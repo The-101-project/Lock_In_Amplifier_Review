@@ -5,8 +5,12 @@
 # Lock_In_Amplifier_Review
 
 Review on Lock In Amplifier Technology in order to design a LIA PCB.  
-This review had started [in my niwiki](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier) targeting a LIA design to be used up to 10 MHz, focusing on Analog LIA technology, based on older and newest Analog Devices ICs, and if possible to discrete ICs implementations.  
- In year 2021/2022 the focus is changing to FPGA implementations
+This review had started [in my niwiki](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier) targeting a LIA design to be used up to 10 MHz, focusing on Analog LIA technology, based on older and newest Analog Devices ICs, and if possible to discrete ICs implementations.
+
+ In year 2021/2022 the focus is changing to FPGA implementations  
+ * DE0-nano FPGA board with Altera, costing €90, design an ADC/DAC piggy-back board, and create VHDL/Verilog LIA
+ * Pitaya FPGA board with XILINX at €300, with integrated 125MHz 14bit ADC & DAC, and open source LIA firmware 
+ * ...
 
 
 ## Oscilloscope Lock In
@@ -41,15 +45,29 @@ thread read 23 Feb 2022
   * [Local copy](doc/LockinAmplifiersMlMeade.pdf) 
 
 ## Red Pitaya Lock In
+Most open source FPGA LIA implementations today (Feb 2022) seem to be on the Red Pitaya, and specifically on the board [stemlab-125-14](https://redpitaya.com/stemlab-125-14/), which at [RS](https://ie.rs-online.com/web/p/oscilloscopes/1271086) costs €288.00 (€354.24 inc. VAT)
+
 
 * [RS Red Pitaya products](https://uk.rs-online.com/web/b/Red-Pitaya/?cm_mmc=IE-PPC-DS3A-_-google-_-2_IE_EN_Suppliers_Red+Pitaya_Exact-_-Red+Pitaya_Pure-_-red+pitaya&matchtype=e&kwd-23777362289&gclid=Cj0KCQiA09eQBhCxARIsAAYRiynxqvpv4DSHIqQS35pyoZMyPBrtmIszIfYnIXlHKd1gOTzV2A6V3f8aArHlEALw_wcB&gclsrc=aw.ds)
+* [at elektor](https://www.elektor.com/stemlab-125-14-starter-kit)
 * [Red Pitaya Lock-in+PID Application](https://github.com/marceluda/rp_lock-in_pid/)
+* [3D models](https://redpitaya.readthedocs.io/en/latest/developerGuide/hardware/mechSpec.html)
 
+<p align="center">
+<img
+src="img/12.PNG"
+width = 400
+/>
+<img
+src="img/13.PNG"
+width = 400
+/>
+</p>
 
 ## References 
 * [niwiki](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier)
 
-## Nodes Slideck embedded to readme
+##  Slideck embedded to readme
 
 ----
 
