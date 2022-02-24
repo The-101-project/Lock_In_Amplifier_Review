@@ -10,22 +10,28 @@ This review had started [in my niwiki](http://www.emboxit.net/niwiki/doku.php?id
 
 
 ## Oscilloscope Lock In
-watched 22 Feb 2022  
+
 
 ### Mark Sch video
+watched 22 Feb 2022  
 Mark Sch Youtube video [Measuring signals buried in noise with an Oscilloscope](https://www.youtube.com/watch?v=vv-xkNa1Z9s&list=PL3Wrg9iIHo1tMckpT1HD4EOCn3QRuW9JZ&index=4)
 
+#### Mark Sch comments
 'Using an external reference, all the noise gets averaged out leaving only the signal in phase with the reference. Similar to how a lock in amplifier works.'
 
 <img src="img/11.PNG" width = 800 />
 
-* Chanell 1  oscilloscope is the received signal
-* Channel 2 is the reference signal
-* Sync in ch2
-* Average function applied to ch1
-
-
 <img src="img/10.PNG" width = 800 />
+
+#### My Summary: 
+The value of this technique: **You only need a digital oscilloscope, to start testing/evaluting the Lock In Amplifier  concept**. No LIA needed!  
+
+Steps:   
+* `Chanell-1`: Connect the received signal with AC coupling
+* `Channel-2`: Connect the reference signal
+* Trigger source: `channel-2`
+* Average function applied to `channel-1`
+* RMS function applied to averaged `channel-1`
 
 ### EEVBlog
 thread read 23 Feb 2022  
