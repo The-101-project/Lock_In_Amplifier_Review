@@ -9,12 +9,38 @@ Review on Lock In Amplifier Technology in order to design a LIA PCB.
 This review had started [in my niwiki](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier) targeting a LIA design to be used with unmodulated Reference frequency up to 10 MHz.  
 The focus initally was on Analogue LIA technology, based on older and newest Analog-Devices ICs, and if possible to discrete ICs implementations [like this](http://www.cappels.org/dproj/dlmom/dlmom.html).
 
- In year 2021/2022 the focus is changing to FPGA implementations  
+ In year 2021/2022, my focus is changing to FPGA implementations  
  * DE0-nano FPGA board with Altera, costing €90
    * Need to design from scratch an ADC/DAC piggy-back board, and create VHDL/Verilog LIA
+   * ALTERA
  * Pitaya FPGA board with XILINX at €300, with integrated `[125MHz 14bit ADC] & [125MHz 14bit DAC]`
-   * Evaluate/Use open source LIA firmware 
+   * Evaluate/Use open source LIA firmware
+   * Scientific community
+   * Python control via a host
+   * Instrument type interfaces PyVISA and more
+   * XILINX 
  * ...
+
+
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [Lock_In_Amplifier_Review](#lock_in_amplifier_review)
+  - [Oscilloscope Lock In](#oscilloscope-lock-in)
+    - [Mark Sch video](#mark-sch-video)
+      - [Mark Sch comments](#mark-sch-comments)
+      - [My Summary:](#my-summary)
+    - [EEVBlog](#eevblog)
+  - [Red Pitaya Lock In](#red-pitaya-lock-in)
+    - [Lock-in+PID](#lock-inpid)
+    - [Red Pitaya References](#red-pitaya-references)
+  - [Publications](#publications)
+  - [References](#references)
+  - [Slideck embedded to readme](#slideck-embedded-to-readme)
+
+<!-- /code_chunk_output -->
 
 
 ## Oscilloscope Lock In
@@ -83,12 +109,24 @@ width = 400
 
 ----
 
+## Publications
+* [FPGA-Based Digital Lock-in Amplifier With High-Precision Automatic Frequency Tracking](https://ieeexplore.ieee.org/document/9129659)
+
+
 ## References 
 * [niwiki](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier)
 * [A microcontroller-based lock-in amplifier for sub-milliohmresistance measurements Lars E. Bengtsson](http://physics.gu.se/~larsbn/Publikationer/pub4_2012.pdf)
 * A microcontroller-based lock-in amplifier for sub-milliohmresistance measurements Lars E. Bengtsson [Local copy](doc/pub4_2012.pdf) 
+* [SingularitySurfer-FPGA-Lock-In-Amplifier
+](https://github.com/SingularitySurfer/SingularitySurfer-FPGA-Lock-In-Amplifier)
+
+
+
+----
 
 ##  Slideck embedded to readme
+
+A summary on the Analog-Devices Lock In ICs/options
 
 ----
 
