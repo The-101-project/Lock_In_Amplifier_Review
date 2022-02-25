@@ -10,15 +10,21 @@ This review had started [in my niwiki](http://www.emboxit.net/niwiki/doku.php?id
 The focus initally was on Analogue LIA technology, based on older and newest Analog-Devices ICs, and if possible to discrete ICs implementations [like this](http://www.cappels.org/dproj/dlmom/dlmom.html).
 
  In year 2021/2022, my focus is changing to FPGA implementations  
- * DE0-nano FPGA board with Altera, costing €90
-   * Need to design from scratch an ADC/DAC piggy-back board, and create VHDL/Verilog LIA
-   * ALTERA
- * Pitaya FPGA board with XILINX at €300, with integrated `[125MHz 14bit ADC] & [125MHz 14bit DAC]`
+
+ A  new consideration arised during the covid19 pandemic: FPGAs, Microcontrollers and a wide range off other ICs have reduced or no availability. Any new design has to take this issue to account. Since FPGA ICs are almost impossible to purchase, we focus on FPGA boards, which have better availabilty today (Feb 2022) 
+ * **DE0-nano** FPGA board with ALTERA, costing €90
+   * Need to design/test from scratch an ADC/DAC piggy-back board
+   * Need to design/test a LIA in FPGA HDL (VHDL/Verilog)
+   * Cost effective and small size
+   * *The effort to create a LIA instrument, is focused on precise Analog electronics design, ADC/DAC interfacing to FPGA and HDL design/coding*
+ * **Red-Pitaya** FPGA board with XILINX at €300, with integrated `[125MHz 14bit ADC] & [125MHz 14bit DAC]`
+   * Designed to be used as a low cost and high performance measurening instrument (oscilloscope, analyzers, etc...)
    * Evaluate/Use open source LIA firmware
-   * Scientific community
+   * Scientific community and publications
    * Python control via a host
+   * A variaty of Python libraries
    * Instrument type interfaces PyVISA and more
-   * XILINX 
+   * *The effort to create a LIA instrument, is focused to PC Software engineering*
  * ...
 
 
