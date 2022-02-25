@@ -49,13 +49,19 @@ thread read 23 Feb 2022
   * [Local copy](doc/LockinAmplifiersMlMeade.pdf) 
 
 ## Red Pitaya Lock In
-Most open source FPGA LIA implementations today (Feb 2022) seem to be on the Red Pitaya, and specifically on the board [stemlab-125-14](https://redpitaya.com/stemlab-125-14/), which at [RS](https://ie.rs-online.com/web/p/oscilloscopes/1271086) costs €288.00 (€354.24 inc. VAT)
+Most open source FPGA LIA implementations today (Feb 2022) seem to be on the Red Pitaya, and specifically on the board [stemlab-125-14](https://redpitaya.com/stemlab-125-14/), which at [RS](https://ie.rs-online.com/web/p/oscilloscopes/1271086) costs €288.00 (€354.24 inc. VAT). RP is used in Scientific publications on Laser spectroscopy...
 
 
 * [RS Red Pitaya products](https://uk.rs-online.com/web/b/Red-Pitaya/?cm_mmc=IE-PPC-DS3A-_-google-_-2_IE_EN_Suppliers_Red+Pitaya_Exact-_-Red+Pitaya_Pure-_-red+pitaya&matchtype=e&kwd-23777362289&gclid=Cj0KCQiA09eQBhCxARIsAAYRiynxqvpv4DSHIqQS35pyoZMyPBrtmIszIfYnIXlHKd1gOTzV2A6V3f8aArHlEALw_wcB&gclsrc=aw.ds)
 * [at elektor](https://www.elektor.com/stemlab-125-14-starter-kit)
-* [Red Pitaya Lock-in+PID Application](https://github.com/marceluda/rp_lock-in_pid/)
 * [3D models](https://redpitaya.readthedocs.io/en/latest/developerGuide/hardware/mechSpec.html)
+### Lock-in+PID
+A complete instrument: Open source XILINX code and PC Python? Software.  
+RP communicates to PC via a WEB interface?
+* [Red Pitaya Lock-in+PID Application](https://github.com/marceluda/rp_lock-in_pid/)
+* [Lock-in+PID](https://marceluda.github.io/rp_lock-in_pid/)
+
+----
 
 <p align="center">
 <img
@@ -67,6 +73,15 @@ src="img/13.PNG"
 width = 400
 />
 </p>
+
+### Red Pitaya References
+* [An open-source high-frequency lock-in amplifier](https://aip.scitation.org/doi/10.1063/1.5083797) 
+* [PyRPL](https://pyrpl.readthedocs.io/en/latest/)  turns your RedPitaya into a powerful DSP device, especially suitable as a digital lockbox and measurement device in quantum optics experiments
+* [linien](https://pypi.org/project/linien/) User-friendly locking of lasers using RedPitaya (STEMlab 125-14) that just works
+* [SCPI server (MATLAB, LabVIEW, Scilab or Python)](https://redpitaya.com/rtd-iframe/?iframe=https://redpitaya.readthedocs.io/en/latest/appsFeatures/remoteControl/remoteAndProg.html)
+
+
+----
 
 ## References 
 * [niwiki](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier)
