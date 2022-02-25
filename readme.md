@@ -11,7 +11,7 @@ The focus initally was on Analogue LIA technology, based on older and newest Ana
 
  In year 2021/2022, my focus is changing to FPGA implementations  
 
- A  new consideration arised during the covid19 pandemic: FPGAs, Microcontrollers and a wide range off other ICs have reduced or no availability. Any new design has to take this issue to account. Since FPGA ICs are almost impossible to purchase, we focus on FPGA boards, which have better availabilty today (Feb 2022) 
+ A  new consideration arised during the covid19 pandemic: FPGAs, Microcontrollers and a wide range off other ICs have reduced or no availability. Any new design has to take this issue to account. Since FPGA-ICs are almost impossible to purchase, we review **FPGA-Boards**, which have better availabilty than ICs today (Feb 2022) 
  * **DE0-nano** FPGA board with ALTERA, costing €90
    * Need to design/test from scratch an ADC/DAC piggy-back board
    * Need to design/test a LIA in FPGA HDL (VHDL/Verilog)
@@ -22,7 +22,7 @@ The focus initally was on Analogue LIA technology, based on older and newest Ana
    * Evaluate/Use open source LIA firmware
    * Scientific community and publications
    * Python control via a host
-   * A variaty of Python libraries
+   * A variety of Python libraries
    * Instrument type interfaces PyVISA and more
    * *The effort to create a LIA instrument, is focused to PC Software engineering*
  * ...
