@@ -87,8 +87,8 @@ Thread read 23 Feb 2022
 * The 2nd LED receiving
 
 Oscilloscope probes
-* Channel 1: Connected to tthe receiving LED
-* Channel 2: Connected to the transmitting LED
+* Channel 1: Connected to the receiving LED. Maximumu Amplification: 20mV/div
+* Channel 2: Connected to the transmitting LED, 1V/div, the driving signal is 2.8V
 
 
 <p align="center">
@@ -99,7 +99,9 @@ width = 500
 </p>
 
 ----
-Trigger to Receving signal, channel 1
+
+* Trigger to Receving signal, channel 1
+RESULT: Too match noise, can't see any receiving signal
 <p align="center">
 <img
 src="img/15.PNG"
@@ -108,7 +110,8 @@ width = 500
 </p>
 
 ----
-Trigger to the Transmitting signal, channel 2
+* Trigger to the Transmitting signal, channel 2  
+* RESULT: As above,too match noise, can't see any receiving signal
 <p align="center">
 <img
 src="img/16.PNG"
@@ -120,7 +123,7 @@ width = 500
 * Trigger to the Transmitting signal: channel 2 
 * From the `ACoUIRE` menu, selected: Averaging with 128 samples  
 
-**SUCCESS:** THE RECEIVER SIGNAL IS 'EXTRACTED FROM NOISE'
+RESULT: **SUCCESS** THE RECEIVER SIGNAL IS 'EXTRACTED FROM NOISE'
 <p align="center">
 <img
 src="img/17.PNG"
@@ -128,7 +131,7 @@ width = 500
 />
 </p>
 
-
+----
 
 ## Red Pitaya Lock In
 Most open source FPGA LIA implementations today (Feb 2022) seem to be on the Red Pitaya, and specifically on the board [stemlab-125-14](https://redpitaya.com/stemlab-125-14/), which at [RS](https://ie.rs-online.com/web/p/oscilloscopes/1271086) costs €288.00 (€354.24 inc. VAT). RP is used in Scientific publications on Laser spectroscopy...
