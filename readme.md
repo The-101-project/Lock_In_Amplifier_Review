@@ -83,8 +83,8 @@ Thread read 23 Feb 2022
 
 ### Nikos experiment 06 March 2022
 2 x blue 3mm LEDs, 
-* The 1st LED transmitting, connected to the oscilloscope calibration output
-* The 2nd LED receiving
+* The 1st LED transmitting, connected to the oscilloscope calibration 1KHz generator output
+* The 2nd LED receiving from 6cm distance, connected without any amplifier to the Oscilloscope Input
 
 Oscilloscope probes
 * Channel-1: Connected to the receiving LED. Maximum Amplification: **20mV/div**
@@ -124,6 +124,8 @@ width = 500
 * From the `ACoUIRE` menu, selected: Averaging with 128 samples  
 
 RESULT: **SUCCESS** THE RECEIVER SIGNAL IS 'EXTRACTED FROM NOISE'
+* The receiving signal amplitude is 10mV p-p.
+
 <p align="center">
 <img
 src="img/17.PNG"
@@ -134,7 +136,7 @@ width = 500
 ----
 
 ## Red Pitaya Lock In
-Most open source FPGA LIA implementations today (Feb 2022) seem to be on the Red Pitaya, and specifically on the board [stemlab-125-14](https://redpitaya.com/stemlab-125-14/), which at [RS](https://ie.rs-online.com/web/p/oscilloscopes/1271086) costs €288.00 (€354.24 inc. VAT). RP is used in Scientific publications on Laser spectroscopy...
+Most open source FPGA LIA implementations today (Feb 2022) seem to be based on the Red Pitaya, and specifically on the board [stemlab-125-14](https://redpitaya.com/stemlab-125-14/), which at [RS](https://ie.rs-online.com/web/p/oscilloscopes/1271086) costs €288.00 (€354.24 inc. VAT). RP is used in Scientific publications on Laser spectroscopy...
 
 
 * [RS Red Pitaya products](https://uk.rs-online.com/web/b/Red-Pitaya/?cm_mmc=IE-PPC-DS3A-_-google-_-2_IE_EN_Suppliers_Red+Pitaya_Exact-_-Red+Pitaya_Pure-_-red+pitaya&matchtype=e&kwd-23777362289&gclid=Cj0KCQiA09eQBhCxARIsAAYRiynxqvpv4DSHIqQS35pyoZMyPBrtmIszIfYnIXlHKd1gOTzV2A6V3f8aArHlEALw_wcB&gclsrc=aw.ds)
