@@ -87,7 +87,7 @@ Thread read 23 Feb 2022
 * The 2nd LED receiving from 6cm distance, connected without any amplifier to the Oscilloscope Input
 
 Oscilloscope probes
-* Channel-1: Connected to the receiving LED. Maximum Amplification: **20mV/div**
+* Channel-1: Connected to the receiving LED. Set to maximum amplification: **20mV/div**
 * Channel-2: Connected to the transmitting LED, 1V/div, the driving signal is 2.8V
 
 
@@ -100,7 +100,7 @@ width = 500
 
 ----
 
-* Trigger to Receving LED, channel-1  
+* Trigger to the Receving LED, channel-1  
 RESULT: Too match noise, can't see any receiving signal
 <p align="center">
 <img
@@ -121,7 +121,7 @@ width = 500
 
 ----
 * Trigger to the Transmitting signal: channel-2 
-* From the `ACoUIRE` menu, selected: Averaging with 128 samples  
+* From the `ACoUIRE` menu, selected: Averaging (channel-1) with 128 samples  
 
 RESULT: **SUCCESS** THE RECEIVER SIGNAL IS 'EXTRACTED FROM NOISE'
 * The receiving signal amplitude is 10mV p-p.
