@@ -87,8 +87,8 @@ Thread read 23 Feb 2022
 * The 2nd LED receiving
 
 Oscilloscope probes
-* Channel 1: Connected to the receiving LED. Maximumu Amplification: 20mV/div
-* Channel 2: Connected to the transmitting LED, 1V/div, the driving signal is 2.8V
+* Channel-1: Connected to the receiving LED. Maximum Amplification: **20mV/div**
+* Channel-2: Connected to the transmitting LED, 1V/div, the driving signal is 2.8V
 
 
 <p align="center">
@@ -100,7 +100,7 @@ width = 500
 
 ----
 
-* Trigger to Receving signal, channel 1
+* Trigger to Receving LED, channel-1  
 RESULT: Too match noise, can't see any receiving signal
 <p align="center">
 <img
@@ -110,8 +110,8 @@ width = 500
 </p>
 
 ----
-* Trigger to the Transmitting signal, channel 2  
-* RESULT: As above,too match noise, can't see any receiving signal
+* Trigger to the Transmitting signal, channel-2  
+* RESULT: As above, too match noise, can't see any receiving signal
 <p align="center">
 <img
 src="img/16.PNG"
@@ -120,7 +120,7 @@ width = 500
 </p>
 
 ----
-* Trigger to the Transmitting signal: channel 2 
+* Trigger to the Transmitting signal: channel-2 
 * From the `ACoUIRE` menu, selected: Averaging with 128 samples  
 
 RESULT: **SUCCESS** THE RECEIVER SIGNAL IS 'EXTRACTED FROM NOISE'
