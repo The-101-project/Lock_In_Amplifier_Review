@@ -39,6 +39,7 @@ The focus initally was on Analogue LIA technology, based on older and newest Ana
       - [Mark Sch comments](#mark-sch-comments)
       - [My Summary:](#my-summary)
     - [EEVBlog](#eevblog)
+    - [Nikos experiment 06 March 2022](#nikos-experiment-06-march-2022)
   - [Red Pitaya Lock In](#red-pitaya-lock-in)
     - [Lock-in+PID](#lock-inpid)
     - [Red Pitaya References](#red-pitaya-references)
@@ -74,11 +75,60 @@ Steps:
 * RMS function applied to averaged `channel-1`
 
 ### EEVBlog
-thread read 23 Feb 2022  
+Thread read 23 Feb 2022  
 
 * [Oscilloscope as a lock-in amplifier (Rigol DS1054Z)](https://www.eevblog.com/forum/projects/oscilloscope-with-trace-averaging-as-a-lock-in-amplifier-(rigol-ds1054z)/)
 * book [Lock-in amplifiers: principles and applications (e-edition)](https://www.sites.google.com/site/lockinamplifiers/home)
   * [Local copy](doc/LockinAmplifiersMlMeade.pdf) 
+
+### Nikos experiment 06 March 2022
+2 x blue 3mm LEDs, 
+* The 1st LED transmitting, connected to the oscilloscope calibration output
+* The 2nd LED receiving
+
+Oscilloscope probes
+* Channel 1: Connected to tthe receiving LED
+* Channel 2: Connected to the transmitting LED
+
+
+<p align="center">
+<img
+src="img/14.PNG"
+width = 500
+/>
+</p>
+
+----
+Trigger to Receving signal, channel 1
+<p align="center">
+<img
+src="img/15.PNG"
+width = 500
+/>
+</p>
+
+----
+Trigger to the Transmitting signal, channel 2
+<p align="center">
+<img
+src="img/16.PNG"
+width = 500
+/>
+</p>
+
+----
+* Trigger to the Transmitting signal: channel 2 
+* From the `ACoUIRE` menu, selected: Averaging with 128 samples  
+
+**SUCCESS:** THE RECEIVER SIGNAL IS 'EXTRACTED FROM NOISE'
+<p align="center">
+<img
+src="img/17.PNG"
+width = 500
+/>
+</p>
+
+
 
 ## Red Pitaya Lock In
 Most open source FPGA LIA implementations today (Feb 2022) seem to be on the Red Pitaya, and specifically on the board [stemlab-125-14](https://redpitaya.com/stemlab-125-14/), which at [RS](https://ie.rs-online.com/web/p/oscilloscopes/1271086) costs €288.00 (€354.24 inc. VAT). RP is used in Scientific publications on Laser spectroscopy...
