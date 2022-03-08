@@ -34,6 +34,9 @@ The focus initally was on Analogue LIA technology, based on older and newest Ana
 <!-- code_chunk_output -->
 
 - [Lock_In_Amplifier_Review](#lock_in_amplifier_review)
+  - [Input signal requirements](#input-signal-requirements)
+    - [Photo-acoustic Laser Gas Analyzer](#photo-acoustic-laser-gas-analyzer)
+    - [Biofeedback device](#biofeedback-device)
   - [Oscilloscope Lock In](#oscilloscope-lock-in)
     - [Mark Sch video](#mark-sch-video)
       - [Mark Sch comments](#mark-sch-comments)
@@ -49,6 +52,15 @@ The focus initally was on Analogue LIA technology, based on older and newest Ana
 
 <!-- /code_chunk_output -->
 
+## Input signal requirements
+### Photo-acoustic Laser Gas Analyzer
+* Signal level we get from a Laser Gas Analyzer photoacoustic sensor
+* Output of the related preamplifier?
+* Reference frequency: 2.5KHz(???)
+
+### Biofeedback device
+* Signal level ???
+* Reference frequency: 1Hz to 10 MHz
 
 ## Oscilloscope Lock In
 
