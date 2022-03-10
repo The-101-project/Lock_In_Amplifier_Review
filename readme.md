@@ -46,6 +46,7 @@ The focus initally was on Analogue LIA technology, based on older and newest Ana
   - [Red Pitaya Lock In](#red-pitaya-lock-in)
     - [Lock-in+PID](#lock-inpid)
     - [Red Pitaya References](#red-pitaya-references)
+  - [Other FPGA based low cost LIA implementations](#other-fpga-based-low-cost-lia-implementations)
   - [Publications](#publications)
   - [References](#references)
   - [Slideck embedded to readme](#slideck-embedded-to-readme)
@@ -57,6 +58,11 @@ The focus initally was on Analogue LIA technology, based on older and newest Ana
 * Signal level we get from a Laser Gas Analyzer photoacoustic sensor
 * Output of the related preamplifier?
 * Reference frequency: 2.5KHz(???)
+----
+* Preamplifier (Transimpedance Amplifier) Input impedance is 10 MΩ
+* Preamplifier (Transimpedance Amplifier) ‘translates’ input current 30pA to 300μV output voltage
+* Input to the LIA 14-bit-ADC is 300μV
+
 
 ### Biofeedback device
 * Signal level ???
@@ -180,6 +186,16 @@ width = 400
 * [SCPI server (MATLAB, LabVIEW, Scilab or Python)](https://redpitaya.com/rtd-iframe/?iframe=https://redpitaya.readthedocs.io/en/latest/appsFeatures/remoteControl/remoteAndProg.html)
 
 
+
+## Other FPGA based low cost LIA implementations
+* [Nexys 4 DDR (FPGA) Based Lock-in Amplifier](https://www.instructables.com/Nexys-4-DDR-FPGA-Based-Lock-in-Amplifier/)
+  * Instructable by bartec_s 
+  * Digilent [410-292](https://ie.farnell.com/webapp/wcs/stores/servlet/ProductDisplay?catalogId=15001&CMP=GRHB-OCTOPART&productSeoURL=digilent&partNumber=2490174&storeId=10163&langId=353&krypto=t5%2B6z2SeN6fwq4Lcxmn0WokhWZxqJt30q5zkhOBU%2F4dTYQqvxKCOX%2FGH1QfRXXtPuy2MSHjGw%2FI8ZK6Wxob3Sg%3D%3D) board, costing: €237.89, 
+  * XLINX-Vivado IDE
+  * VHDL files provided
+
+
+
 ----
 
 ## Publications
@@ -192,6 +208,8 @@ width = 400
 * A microcontroller-based lock-in amplifier for sub-milliohmresistance measurements Lars E. Bengtsson [Local copy](doc/pub4_2012.pdf) 
 * [SingularitySurfer-FPGA-Lock-In-Amplifier
 ](https://github.com/SingularitySurfer/SingularitySurfer-FPGA-Lock-In-Amplifier)
+
+
 
 
 
