@@ -4,8 +4,14 @@
 
 # Lock_In_Amplifier_Review
 
+<p align="center">
+<img
+src="img/18.PNG"
+width = 800
+/>
+</p>
 
-* [RedPitayaLIA](./RedPitayaLIA.py)
+* [RedPitayaLIA](./RedPitayaLIA.md)
 
 
 Review on Lock In Amplifier Technology in order to design a LIA PCB.
