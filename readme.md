@@ -4,6 +4,10 @@
 
 # Lock_In_Amplifier_Review
 
+
+* [RedPitayaLIA](./RedPitayaLIA.py)
+
+
 Review on Lock In Amplifier Technology in order to design a LIA PCB.
 
 This review had started [in my niwiki](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier) targeting a LIA design to be used with unmodulated Reference frequency up to 10 MHz.  
