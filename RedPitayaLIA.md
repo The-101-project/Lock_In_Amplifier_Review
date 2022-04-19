@@ -15,6 +15,16 @@
 
 <!-- /code_chunk_output -->
 
+ ## Red-Pitaya overview
+ 
+ FPGA board with XILINX at €300, with integrated `[125MHz 14bit ADC] & [125MHz 14bit DAC]`
+   * Designed to be used as a low cost and high performance measurening instrument (oscilloscope, analyzers, etc...)
+   * Evaluate/Use open source LIA firmware
+   * Scientific community and publications
+   * Python control via a host
+   * A variety of Python libraries
+   * Instrument type interfaces PyVISA and more
+   * *The effort to create a LIA instrument, is focused to PC Software engineering*
 
 
 ## Red Pitaya Lock In
