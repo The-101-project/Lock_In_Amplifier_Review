@@ -1,5 +1,7 @@
 # RedPitayaLIA
 
+* [README](./README.md)
+
 ##  An open-source high-frequency lock-in amplifier
 
 * [Review of Scientific Instruments: An open-source high-frequency lock-in amplifier](https://aip.scitation.org/doi/10.1063/1.5083797)

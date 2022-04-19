@@ -4,6 +4,8 @@
 
 # Lock_In_Amplifier_Review
 
+* [RedPitayaLIA](./RedPitayaLIA.md)
+
 <p align="center">
 <img
 src="img/18.PNG"
