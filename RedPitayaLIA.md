@@ -70,12 +70,26 @@ An open-source high-frequency lock-in amplifier
 
 > ... In this article, we detail an LIA which we have implemented on the STEMlab’s FPGA chip, along with open source29 operational and data transfer software developed specifically for this application. We demonstrate that this device shares many capabilities with more expensive alternatives such as a sweepable internal signal generator, single or dual input/output modes, wave form control, and the ability to increase the number of available inputs and outputs by interfacing across multiple STEMlab units. ...
 
+----
+RePLIA Top level diagram
+
 />
 <img
 src="img/19.PNG"
 width = 900
 />
 </p>
+
+----
+RePLIA image for the Redpitaya is 3.9 GB
+/>
+<img
+src="img/20.PNG"
+width = 900
+/>
+</p>
+
+----
 
 ### nikos review
 * published at 2019
