@@ -5,7 +5,7 @@
 # tasks
 
 
-- [ ] unify content with pasepartout redpitaya review
+- [x] move Redpitaya content from readme to RadPitayaLIA
 - [ ] Add images
 - [ ] Add some conclusions
 - [ ] Compare with similar RedPitaya LIA solutions

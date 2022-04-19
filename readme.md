@@ -57,9 +57,6 @@ The focus initally was on Analogue LIA technology, based on older and newest Ana
     - [EEVBlog](#eevblog)
     - [Nikos experiment 06 March 2022](#nikos-experiment-06-march-2022)
   - [Red Pitaya Lock In](#red-pitaya-lock-in)
-    - [Lock-in+PID](#lock-inpid)
-    - [Red Pitaya References](#red-pitaya-references)
-  - [Other FPGA based low cost LIA implementations](#other-fpga-based-low-cost-lia-implementations)
   - [Publications](#publications)
   - [References](#references)
   - [Slideck embedded to readme](#slideck-embedded-to-readme)
@@ -167,49 +164,10 @@ width = 500
 ----
 
 ## Red Pitaya Lock In
-Most open source FPGA LIA implementations today (Feb 2022) seem to be based on the Red Pitaya, and specifically on the board [stemlab-125-14](https://redpitaya.com/stemlab-125-14/), which at [RS](https://ie.rs-online.com/web/p/oscilloscopes/1271086) costs €288.00 (€354.24 inc. VAT). RP is used in Scientific publications on Laser spectroscopy...
-
-
-* [RS Red Pitaya products](https://uk.rs-online.com/web/b/Red-Pitaya/?cm_mmc=IE-PPC-DS3A-_-google-_-2_IE_EN_Suppliers_Red+Pitaya_Exact-_-Red+Pitaya_Pure-_-red+pitaya&matchtype=e&kwd-23777362289&gclid=Cj0KCQiA09eQBhCxARIsAAYRiynxqvpv4DSHIqQS35pyoZMyPBrtmIszIfYnIXlHKd1gOTzV2A6V3f8aArHlEALw_wcB&gclsrc=aw.ds)
-* [at elektor](https://www.elektor.com/stemlab-125-14-starter-kit)
-* [3D models](https://redpitaya.readthedocs.io/en/latest/developerGuide/hardware/mechSpec.html)
-### Lock-in+PID
-A complete instrument: Open source XILINX code and PC Python? Software.  
-RP communicates to PC via a WEB interface?
-* [Red Pitaya Lock-in+PID Application](https://github.com/marceluda/rp_lock-in_pid/)
-* [Lock-in+PID](https://marceluda.github.io/rp_lock-in_pid/)
-
-----
-
-<p align="center">
-<img
-src="img/12.PNG"
-width = 400
-/>
-<img
-src="img/13.PNG"
-width = 400
-/>
-</p>
-
-### Red Pitaya References
-* [An open-source high-frequency lock-in amplifier](https://aip.scitation.org/doi/10.1063/1.5083797) 
-* [PyRPL](https://pyrpl.readthedocs.io/en/latest/)  turns your RedPitaya into a powerful DSP device, especially suitable as a digital lockbox and measurement device in quantum optics experiments
-* [linien](https://pypi.org/project/linien/) User-friendly locking of lasers using RedPitaya (STEMlab 125-14) that just works
-* [SCPI server (MATLAB, LabVIEW, Scilab or Python)](https://redpitaya.com/rtd-iframe/?iframe=https://redpitaya.readthedocs.io/en/latest/appsFeatures/remoteControl/remoteAndProg.html)
+[RedPitayaLIA](./RedPitayaLIA.md)
 
 
 
-## Other FPGA based low cost LIA implementations
-* [Nexys 4 DDR (FPGA) Based Lock-in Amplifier](https://www.instructables.com/Nexys-4-DDR-FPGA-Based-Lock-in-Amplifier/)
-  * Instructable by bartec_s 
-  * Digilent [410-292](https://ie.farnell.com/webapp/wcs/stores/servlet/ProductDisplay?catalogId=15001&CMP=GRHB-OCTOPART&productSeoURL=digilent&partNumber=2490174&storeId=10163&langId=353&krypto=t5%2B6z2SeN6fwq4Lcxmn0WokhWZxqJt30q5zkhOBU%2F4dTYQqvxKCOX%2FGH1QfRXXtPuy2MSHjGw%2FI8ZK6Wxob3Sg%3D%3D) board, costing: €237.89, 
-  * XLINX-Vivado IDE
-  * VHDL files provided
-
-
-
-----
 
 ## Publications
 * [FPGA-Based Digital Lock-in Amplifier With High-Precision Automatic Frequency Tracking](https://ieeexplore.ieee.org/document/9129659)
