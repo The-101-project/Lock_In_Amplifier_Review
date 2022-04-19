@@ -6,3 +6,7 @@
 
 
 - [ ] unify content with pasepartout redpitaya review
+- [ ] Add images
+- [ ] Add some conclusions
+- [ ] Compare with similar RedPitaya LIA solutions
+- [ ] Solve the large image for RP sd-card download issue
