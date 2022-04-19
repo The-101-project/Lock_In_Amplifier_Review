@@ -5,6 +5,7 @@
 # Lock_In_Amplifier_Review
 
 * [RedPitayaLIA](./RedPitayaLIA.md)
+* [tasks](./tasks.md)
 
 <p align="center">
 <img
