@@ -12,6 +12,7 @@
     - [Lock-in+PID](#lock-inpid)
     - [Red Pitaya References](#red-pitaya-references)
   - [An open-source high-frequency lock-in amplifier](#an-open-source-high-frequency-lock-in-amplifier)
+    - [nikos review](#nikos-review)
 
 <!-- /code_chunk_output -->
 
@@ -67,4 +68,18 @@ width = 400
 * [Review of Scientific Instruments: An open-source high-frequency lock-in amplifier](https://aip.scitation.org/doi/10.1063/1.5083797)
     * [LOCAL_COPY](./An_open-source_high-frequency_lock-in_amplifier_1.5083797.pdf)
 
-> ... In this article, we detail an LIA which we have implemented on the STEMlab’s FPGA chip, along with open source29 operational and data transfer software developed specifically for this application. We demonstrate that this device shares many capabilities with more expensive alternatives such as a sweepable internal signal generator, single or dual input/output modes, wave form control, and the ability to increase the number of available inputs and outputs by interfacing across multiple STEMlab units. ...   
+> ... In this article, we detail an LIA which we have implemented on the STEMlab’s FPGA chip, along with open source29 operational and data transfer software developed specifically for this application. We demonstrate that this device shares many capabilities with more expensive alternatives such as a sweepable internal signal generator, single or dual input/output modes, wave form control, and the ability to increase the number of available inputs and outputs by interfacing across multiple STEMlab units. ...
+
+/>
+<img
+src="img/19.PNG"
+width = 900
+/>
+</p>
+
+### nikos review
+* published at 2019
+* Up to 50 MHz
+* 90 nV/√Hz of input noise
+* Creative Commons Attribution 
+* The RePLIA has been used for magnetometry
