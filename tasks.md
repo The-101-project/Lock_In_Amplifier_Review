@@ -8,6 +8,6 @@
 - [x] move Redpitaya content from readme to RadPitayaLIA
 - [x] Add images
 - [x] Add some conclusions
-- [ ] Compare with similar RedPitaya LIA solutions
-- [ ] Solve the large image for RP sd-card download issue
+- [ ] Compare RePLIA with other RedPitaya LIA solutions
+- [x] Solve the large image for RP sd-card download issue
 - [ ] Find the frequency resolution for RePLIA
