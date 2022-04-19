@@ -11,7 +11,7 @@
   - [Red Pitaya Lock In](#red-pitaya-lock-in)
     - [Lock-in+PID](#lock-inpid)
     - [Red Pitaya References](#red-pitaya-references)
-  - [An open-source high-frequency lock-in amplifier](#an-open-source-high-frequency-lock-in-amplifier)
+  - [RePLIA](#replia)
     - [nikos review](#nikos-review)
 
 <!-- /code_chunk_output -->
@@ -29,7 +29,6 @@
 
 
 ## Red Pitaya Lock In
-[RedPitayaLIA](./RedPitayaLIA.md)
 
 Most open source FPGA LIA implementations today (Feb 2022) seem to be based on the Red Pitaya, and specifically on the board [stemlab-125-14](https://redpitaya.com/stemlab-125-14/), which at [RS](https://ie.rs-online.com/web/p/oscilloscopes/1271086) costs €288.00 (€354.24 inc. VAT). RP is used in Scientific publications on Laser spectroscopy...
 
@@ -63,7 +62,8 @@ width = 400
 * [SCPI server (MATLAB, LabVIEW, Scilab or Python)](https://redpitaya.com/rtd-iframe/?iframe=https://redpitaya.readthedocs.io/en/latest/appsFeatures/remoteControl/remoteAndProg.html)
 
 
-##  An open-source high-frequency lock-in amplifier
+##  RePLIA
+An open-source high-frequency lock-in amplifier
 
 * [Review of Scientific Instruments: An open-source high-frequency lock-in amplifier](https://aip.scitation.org/doi/10.1063/1.5083797)
     * [LOCAL_COPY](./An_open-source_high-frequency_lock-in_amplifier_1.5083797.pdf)
@@ -83,3 +83,4 @@ width = 900
 * 90 nV/√Hz of input noise
 * Creative Commons Attribution 
 * The RePLIA has been used for magnetometry
+* Power consumption: 4W when idle and <6W during lock-in operation
