@@ -2,21 +2,40 @@
 [![](https://img.shields.io/badge/remote-Lock_In_Amplifier_Review-green.svg)](https://github.com/The-101-project/LockInAmplifierReview) 
 [![](https://img.shields.io/badge/local-F:\prj\electronics\Lock_In_Amplifier_Review-orange.svg)](https://github.com/soldering-channel)
 
+## Contents
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+  - [Contents](#contents)
+- [Lock_In_Amplifier_Review](#lock_in_amplifier_review)
+  - [Overview](#overview)
+  - [Tag cloud](#tag-cloud)
+  - [Input signal requirements](#input-signal-requirements)
+    - [Photo-acoustic Laser Gas Analyzer](#photo-acoustic-laser-gas-analyzer)
+    - [Biofeedback device](#biofeedback-device)
+  - [Oscilloscope Lock In](#oscilloscope-lock-in)
+    - [Mark Sch video](#mark-sch-video)
+      - [Mark Sch comments](#mark-sch-comments)
+      - [My Summary:](#my-summary)
+    - [EEVBlog](#eevblog)
+    - [Nikos experiment 06 March 2022](#nikos-experiment-06-march-2022)
+  - [Red Pitaya Lock In](#red-pitaya-lock-in)
+  - [Publications](#publications)
+  - [References](#references)
+  - [Slideck embedded to readme](#slideck-embedded-to-readme)
+
+<!-- /code_chunk_output -->
+
+----
+
+
 # Lock_In_Amplifier_Review
 
 * [RedPitayaLIA](./RedPitayaLIA.md)
 * [tasks](./tasks.md)
 
-<p align="center">
-<img
-src="img/18.PNG"
-width = 800
-/>
-</p>
-
-* [RedPitayaLIA](./RedPitayaLIA.md)
-
-
+## Overview
 Review on Lock In Amplifier Technology in order to design a LIA PCB.
 
 This review had started [in my niwiki](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier) targeting a LIA design to be used with unmodulated Reference frequency up to 10 MHz.  
@@ -42,26 +61,18 @@ The focus initally was on Analogue LIA technology, based on older and newest Ana
 
 
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
-<!-- code_chunk_output -->
 
-- [Lock_In_Amplifier_Review](#lock_in_amplifier_review)
-  - [Input signal requirements](#input-signal-requirements)
-    - [Photo-acoustic Laser Gas Analyzer](#photo-acoustic-laser-gas-analyzer)
-    - [Biofeedback device](#biofeedback-device)
-  - [Oscilloscope Lock In](#oscilloscope-lock-in)
-    - [Mark Sch video](#mark-sch-video)
-      - [Mark Sch comments](#mark-sch-comments)
-      - [My Summary:](#my-summary)
-    - [EEVBlog](#eevblog)
-    - [Nikos experiment 06 March 2022](#nikos-experiment-06-march-2022)
-  - [Red Pitaya Lock In](#red-pitaya-lock-in)
-  - [Publications](#publications)
-  - [References](#references)
-  - [Slideck embedded to readme](#slideck-embedded-to-readme)
+## Tag cloud
 
-<!-- /code_chunk_output -->
+
+
+<p align="center">
+<img
+src="img/18.PNG"
+width = 800
+/>
+</p>
 
 ## Input signal requirements
 ### Photo-acoustic Laser Gas Analyzer
