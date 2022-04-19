@@ -13,6 +13,7 @@
     - [Red Pitaya References](#red-pitaya-references)
   - [RePLIA](#replia)
     - [nikos review](#nikos-review)
+    - [How to emulate a noisy input](#how-to-emulate-a-noisy-input)
 
 <!-- /code_chunk_output -->
 
@@ -92,9 +93,12 @@ width = 900
 ----
 
 ### nikos review
-* published at 2019
+* RePLIA published at 2019
 * Up to 50 MHz
 * 90 nV/√Hz of input noise
 * Creative Commons Attribution 
 * The RePLIA has been used for magnetometry
 * Power consumption: 4W when idle and <6W during lock-in operation
+
+### How to emulate a noisy input
+* https://www.designnews.com/what-nvvhz-noise

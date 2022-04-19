@@ -11,3 +11,4 @@
 - [ ] Compare RePLIA with other RedPitaya LIA solutions
 - [x] Solve the large image for RP sd-card download issue
 - [ ] Find the frequency resolution for RePLIA
+- [ ] Find the meaning of 90 nV/√Hz and how to emulate that
