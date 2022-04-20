@@ -2,38 +2,41 @@
 [![](https://img.shields.io/badge/remote-Lock_In_Amplifier_Review-green.svg)](https://github.com/The-101-project/LockInAmplifierReview) 
 [![](https://img.shields.io/badge/local-F:\prj\electronics\Lock_In_Amplifier_Review-orange.svg)](https://github.com/soldering-channel)
 
+
+# Lock_In_Amplifier_Review
+
+
 ## Contents
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-  - [Contents](#contents)
 - [Lock_In_Amplifier_Review](#lock_in_amplifier_review)
+  - [Contents](#contents)
   - [Overview](#overview)
-  - [Tag cloud](#tag-cloud)
+  - [SRS Standford Research Systems Manual](#srs-standford-research-systems-manual)
   - [Input signal requirements](#input-signal-requirements)
     - [Photo-acoustic Laser Gas Analyzer](#photo-acoustic-laser-gas-analyzer)
     - [Biofeedback device](#biofeedback-device)
   - [Oscilloscope Lock In](#oscilloscope-lock-in)
-    - [Mark Sch video](#mark-sch-video)
-      - [Mark Sch comments](#mark-sch-comments)
-      - [My Summary:](#my-summary)
-    - [EEVBlog](#eevblog)
-    - [Nikos experiment 06 March 2022](#nikos-experiment-06-march-2022)
   - [Red Pitaya Lock In](#red-pitaya-lock-in)
   - [Publications](#publications)
   - [References](#references)
   - [Slideck embedded to readme](#slideck-embedded-to-readme)
+  - [Tag cloud](#tag-cloud)
 
 <!-- /code_chunk_output -->
 
 ----
 
 
-# Lock_In_Amplifier_Review
+
 
 * [RedPitayaLIA](./RedPitayaLIA.md)
 * [tasks](./tasks.md)
+* [oscilloscopeLOCKIN](./oscilloscopeLOCKIN.md)
+
+----
 
 ## Overview
 Review on Lock In Amplifier Technology in order to design a LIA PCB.
@@ -61,28 +64,32 @@ The focus initally was on Analogue LIA technology, based on older and newest Ana
 
 
 
+## SRS Standford Research Systems Manual
+* SRS [About Lock-In Amplifiers](https://web.physics.indiana.edu/courses/p451/background_info/SRS_Lock-In_Amplifiers.pdf)
 
+* **Pages 1 to 9 have a very good explanation on LIA operation and considerations.**   
+* Then in pages 10 to 78 is the user manual for the MODEL SR530 LOCK-IN AMPLIFIER
 
-## Tag cloud
-
-
-
+> local pdf copy with HIGHLIGHTS in pages 1-9
 <p align="center">
 <img
-src="img/18.PNG"
-width = 800
+src="img/21.PNG"
+width = 500
 />
 </p>
+
+----
+
 
 ## Input signal requirements
 ### Photo-acoustic Laser Gas Analyzer
 * Signal level we get from a Laser Gas Analyzer photoacoustic sensor
 * Output of the related preamplifier?
-* Reference frequency: 2.5KHz(???)
+* Reference frequency: 2.5KHz
 ----
-* Preamplifier (Transimpedance Amplifier) Input impedance is 10 MΩ
-* Preamplifier (Transimpedance Amplifier) ‘translates’ input current 30pA to 300μV output voltage
-* Input to the LIA 14-bit-ADC is 300μV
+> * Preamplifier (Transimpedance Amplifier) Input impedance is 10 MΩ
+> * Preamplifier (Transimpedance Amplifier) ‘translates’ input current **30pA** to 300μV output voltage
+> * Input to the LIA 14-bit-ADC is **300μV**
 
 
 ### Biofeedback device
@@ -90,92 +97,11 @@ width = 800
 * Reference frequency: 1Hz to 10 MHz
 
 ## Oscilloscope Lock In
-
-
-### Mark Sch video
-watched 22 Feb 2022  
-Mark Sch Youtube video [Measuring signals buried in noise with an Oscilloscope](https://www.youtube.com/watch?v=vv-xkNa1Z9s&list=PL3Wrg9iIHo1tMckpT1HD4EOCn3QRuW9JZ&index=4)
-
-#### Mark Sch comments
-'Using an external reference, all the noise gets averaged out leaving only the signal in phase with the reference. Similar to how a lock in amplifier works.'
-
-<img src="img/11.PNG" width = 800 />
-
-<img src="img/10.PNG" width = 800 />
-
-#### My Summary: 
-The value of this technique: **You only need a digital oscilloscope, to start testing/evaluting the Lock In Amplifier  concept**. No LIA needed, but it is not replicating exactly the  LIA operation.  
-
-Steps:   
-* `Chanell-1`: Connect the received signal with AC coupling
-* `Channel-2`: Connect the reference signal
-* Trigger source: `channel-2`
-* Average function applied to `channel-1`
-* RMS function applied to averaged `channel-1`
-
-### EEVBlog
-Thread read 23 Feb 2022  
-
-* [Oscilloscope as a lock-in amplifier (Rigol DS1054Z)](https://www.eevblog.com/forum/projects/oscilloscope-with-trace-averaging-as-a-lock-in-amplifier-(rigol-ds1054z)/)
-* book [Lock-in amplifiers: principles and applications (e-edition)](https://www.sites.google.com/site/lockinamplifiers/home)
-  * [Local copy](doc/LockinAmplifiersMlMeade.pdf) 
-
-### Nikos experiment 06 March 2022
-2 x blue 3mm LEDs, 
-* The 1st LED transmitting, connected to the oscilloscope calibration 1KHz generator output
-* The 2nd LED receiving from 6cm distance, connected without any amplifier to the Oscilloscope Input
-
-Oscilloscope probes
-* Channel-1: Connected to the receiving LED. Set to maximum amplification: **20mV/div**
-* Channel-2: Connected to the transmitting LED, 1V/div, the driving signal is 2.8V
-
-
-<p align="center">
-<img
-src="img/14.PNG"
-width = 500
-/>
-</p>
-
-----
-
-* Trigger to the Receving LED, channel-1  
-RESULT: Too match noise, can't see any receiving signal
-<p align="center">
-<img
-src="img/15.PNG"
-width = 500
-/>
-</p>
-
-----
-* Trigger to the Transmitting signal, channel-2  
-* RESULT: As above, too match noise, can't see any receiving signal
-<p align="center">
-<img
-src="img/16.PNG"
-width = 500
-/>
-</p>
-
-----
-* Trigger to the Transmitting signal: channel-2 
-* From the `ACoUIRE` menu, selected: Averaging (channel-1) with 128 samples  
-
-RESULT: **SUCCESS** THE RECEIVER SIGNAL IS 'EXTRACTED FROM NOISE'
-* The receiving signal amplitude is 10mV p-p.
-
-<p align="center">
-<img
-src="img/17.PNG"
-width = 500
-/>
-</p>
-
-----
+Measuring signals buried in noise with an Oscilloscope.  
+Local link: [oscilloscopeLOCKIN](./oscilloscopeLOCKIN.md)
 
 ## Red Pitaya Lock In
-[RedPitayaLIA](./RedPitayaLIA.md)
+Local link: [RedPitayaLIA](./RedPitayaLIA.md)
 
 
 
@@ -193,9 +119,6 @@ width = 500
 
 ----
 
-* Standford Research systems [About Lock-In Amplifiers](https://web.physics.indiana.edu/courses/p451/background_info/SRS_Lock-In_Amplifiers.pdf)
-
-----
 
 ##  Slideck embedded to readme
 
@@ -236,3 +159,16 @@ A summary on the Analog-Devices Lock In ICs/options
 ----
 
 <img src="img/Slide9.PNG" width = 800 />
+
+
+
+## Tag cloud
+
+
+
+<p align="center">
+<img
+src="img/18.PNG"
+width = 800
+/>
+</p>
