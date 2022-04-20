@@ -13,13 +13,12 @@
 
 - [Lock_In_Amplifier_Review](#lock_in_amplifier_review)
   - [Contents](#contents)
+  - [Local Links](#local-links)
   - [Overview](#overview)
   - [SRS Standford Research Systems Manual](#srs-standford-research-systems-manual)
   - [Use-cases Input signal requirements](#use-cases-input-signal-requirements)
     - [Photo-acoustic Laser Gas Analyzer](#photo-acoustic-laser-gas-analyzer)
     - [Biofeedback device](#biofeedback-device)
-  - [Oscilloscope Lock In](#oscilloscope-lock-in)
-  - [Red Pitaya Lock In](#red-pitaya-lock-in)
   - [Publications](#publications)
   - [References](#references)
   - [Slideck embedded to readme](#slideck-embedded-to-readme)
@@ -29,7 +28,7 @@
 
 ----
 
-
+## Local Links
 
 
 * [RedPitayaLIA](./RedPitayaLIA.md)
@@ -68,7 +67,7 @@ The focus initally was on Analogue LIA technology, based on older and newest Ana
 
 
 ## SRS Standford Research Systems Manual
-* SRS [About Lock-In Amplifiers](https://web.physics.indiana.edu/courses/p451/background_info/SRS_Lock-In_Amplifiers.pdf)
+* SRS [Application Note #3: About Lock-In Amplifiers](https://web.physics.indiana.edu/courses/p451/background_info/SRS_Lock-In_Amplifiers.pdf)
 
 * **Pages 1 to 9 have a very good explanation on LIA operation and considerations.**   
 * Then in pages 10 to 78 is the user manual for the MODEL SR530 LOCK-IN AMPLIFIER
@@ -98,15 +97,6 @@ width = 500
 ### Biofeedback device
 * Signal level ???
 * Reference frequency: 1Hz to 10 MHz
-
-## Oscilloscope Lock In
-Measuring signals buried in noise with an Oscilloscope.  
-Local link: [oscilloscopeLOCKIN](./oscilloscopeLOCKIN.md)
-
-## Red Pitaya Lock In
-Local link: [RedPitayaLIA](./RedPitayaLIA.md)
-
-
 
 
 ## Publications
