@@ -101,4 +101,10 @@ width = 900
 * Power consumption: 4W when idle and <6W during lock-in operation
 
 ### How to emulate a noisy input
+* nV/√Hz = nanovolt per root Hertz: Spectral noise density
+
+  * [Can anyone give me a laymans explanation of the "nV/rtHz" specification/measure?](https://www.eevblog.com/forum/chat/can-anyone-give-me-a-laymans-explanation-of-the-_nvrthz_-specificationmeasure/)
+  * [NOISE ANALYSIS - RESISTOR EXAMPLE](http://www.ecircuitcenter.com/Circuits/Noise/Noise_Analysis/res_noise.htm)
 * https://www.designnews.com/what-nvvhz-noise
+* [snva515c](https://www.ti.com/lit/an/snva515c/snva515c.pdf?ts=1650375636618&ref_url=https%253A%252F%252Fwww.google.com%252F)
+* [How can I measure and calculate nV/Root Hz (nanovolt per root Hertz) on a spectrum analyzer?](https://www.tek.com/en/support/faqs/how-can-i-measure-and-calculate-nv-root-hz-nanovolt-root-hertz-spectrum-analyzer)
