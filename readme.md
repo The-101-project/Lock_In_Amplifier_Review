@@ -191,9 +191,9 @@ width = 500
 * [SingularitySurfer-FPGA-Lock-In-Amplifier
 ](https://github.com/SingularitySurfer/SingularitySurfer-FPGA-Lock-In-Amplifier)
 
+----
 
-
-
+* Standford Research systems [About Lock-In Amplifiers](https://web.physics.indiana.edu/courses/p451/background_info/SRS_Lock-In_Amplifiers.pdf)
 
 ----
 
