@@ -90,17 +90,19 @@ width = 500
 
 ## Use-cases Input signal requirements
 ### Photo-acoustic Laser Gas Analyzer
-* Signal level we get from a Laser Gas Analyzer photoacoustic sensor
-* Output of the related preamplifier?
+* Signal level we get from a QEPAS Laser Gas Analyzer photoacoustic sensor: 30pA
+* Output of the  preamplifier: 300μV
 * Reference frequency: 2.5KHz
+
 ----
-> * Preamplifier (Transimpedance Amplifier) Input impedance is 10 MΩ
+> * Preamplifier (Transimpedance Amplifier) Input impedance is **10 MΩ**
 > * Preamplifier (Transimpedance Amplifier) ‘translates’ input current **30pA** to 300μV output voltage
 > * Input to the LIA 14-bit-ADC is **300μV**
 
+----
 
 ### Biofeedback device
-* Signal level ???
+* Signal level: Unknown
 * Reference frequency: 1Hz to 10 MHz
 
 
