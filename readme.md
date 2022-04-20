@@ -38,15 +38,15 @@
 ----
 
 ## Overview
-Review on Lock In Amplifier Technology in order to design a LIA PCB.
+Review on Lock In Amplifier Technology in order to design/build a LIA PCB.
 
-This review had started [in my niwiki](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier) targeting a LIA design to be used with unmodulated Reference frequency up to 10 MHz.  
-The focus initally was on Analogue LIA technology, based on older and newest Analog-Devices ICs, and if possible to discrete ICs implementations [like this](http://www.cappels.org/dproj/dlmom/dlmom.html).
+This review had started [in my niwiki](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier) targeting a LIA design to be used with unmodulated Reference frequency up to 10 MHz.  The focus initally was on Analogue LIA technology, based on older and newest Analog-Devices ICs, and if possible to discrete ICs implementations [like this](http://www.cappels.org/dproj/dlmom/dlmom.html).
 
+----
 
-It seems (in the current stage of our research) the best options for a LIA are:
-* RedPitaya, being complete with ADC,DAC, and used in scientific publications as LIA
-* DE0-Nano board, having good price and small size and Altera FPGA
+It seems (in the current stage of our research) the best options are:
+* RedPitaya board, being complete with ADC,DAC, and used in scientific publications as LIA
+* DE0-Nano board, having good price, small size and Altera FPGA
 
  
  ## FPGA boards
