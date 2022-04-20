@@ -15,7 +15,7 @@
   - [Contents](#contents)
   - [Overview](#overview)
   - [SRS Standford Research Systems Manual](#srs-standford-research-systems-manual)
-  - [Input signal requirements](#input-signal-requirements)
+  - [Use-cases Input signal requirements](#use-cases-input-signal-requirements)
     - [Photo-acoustic Laser Gas Analyzer](#photo-acoustic-laser-gas-analyzer)
     - [Biofeedback device](#biofeedback-device)
   - [Oscilloscope Lock In](#oscilloscope-lock-in)
@@ -44,6 +44,9 @@ Review on Lock In Amplifier Technology in order to design a LIA PCB.
 This review had started [in my niwiki](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier) targeting a LIA design to be used with unmodulated Reference frequency up to 10 MHz.  
 The focus initally was on Analogue LIA technology, based on older and newest Analog-Devices ICs, and if possible to discrete ICs implementations [like this](http://www.cappels.org/dproj/dlmom/dlmom.html).
 
+ 
+ ## FPGA boards
+ 
  In year 2021/2022, my focus is changing to FPGA implementations  
 
  A  new consideration arised during the covid19 pandemic: FPGAs, Microcontrollers and a wide range off other ICs have reduced or no availability. Any new design has to take this issue to account. Since FPGA-ICs are almost impossible to purchase, we review **FPGA-Boards**, which have better availabilty than ICs today (Feb 2022) 
@@ -81,7 +84,7 @@ width = 500
 ----
 
 
-## Input signal requirements
+## Use-cases Input signal requirements
 ### Photo-acoustic Laser Gas Analyzer
 * Signal level we get from a Laser Gas Analyzer photoacoustic sensor
 * Output of the related preamplifier?
