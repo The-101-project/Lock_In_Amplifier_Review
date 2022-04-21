@@ -29,11 +29,17 @@ If the PSD output is passed through a low pass filter, the AC signals are remove
 #### Phase dependency is removed 
 #### R = (X2 + Y2)½ = Vsig
 
-## Digita PSD vs Analog PSD
+## Digital PSD vs Analog PSD
 The amplified signal is converted to digital
 form using a 16-bit A/D converter sampling at 256 kHz. The
 A/D converter is preceeded by a 102 kHz anti-aliasing filter to
 prevent higher frequency inputs from aliasing below 102 kHz
+
+The overall performance of a lock-in amplifier is largely
+determined by the performance of its phase sensitive
+detectors. In virtually all respects, the digital PSD outperforms
+its analog counterparts.
+
 ### 16-bit A/D converter sampling at 256 kHz
 
 ### 102 kHz anti-aliasing filter
@@ -42,3 +48,42 @@ prevent higher frequency inputs from aliasing below 102 kHz
 
 #### Sample every Every 4us
 #### Multiply by both reference sines
+
+### Analog PSD issues
+Analog PSDs (both square wave and
+linear) have many problems associated with them. The main
+problems are harmonic rejection, output offsets, limited
+dynamic reserve, and gain error.
+
+
+
+#### harmonic rejection
+#### output offsets
+#### limited dynamic reserve 
+####  gain error
+
+### Digital  PSD advantages
+Analog PSDs (both square wave and
+linear) have many problems associated with them. The main
+problems are harmonic rejection, output offsets, limited
+dynamic reserve, and gain error.
+
+#### very low harmonic content
+Because the reference sine
+waves are computed to 20 bits of accuracy, they have very low
+harmonic content. In fact, the harmonics are at the −120 dB
+level!
+
+#### no erroneous DC output offsets
+Output offset is a problem because the signal of interest is a
+DC output from the PSD, and an output offset contributes to
+error and zero drift. The offset problems of analog PSDs are
+eliminated using the digital multiplier. There are no erroneous
+DC output offsets from the digital multiplication of the signal
+and reference. In fact, the actual multiplication is virtually
+error free.
+
+#### limited dynamic reserve 
+####  gain error
+
+
