@@ -1,6 +1,6 @@
 
 # srs
-
+mindmap created with `Markdown Mindmap Preview' VSC extension
 <p align="center">
 <img
 src="img/22.PNG"
