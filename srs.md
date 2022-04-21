@@ -1,6 +1,8 @@
 
 # srs
 
+An overview and mindmap of the `SRS_Lock-In_Amplifiers_HIGHLIGHTS.pdf`
+
 * [BACK_TO_TOP](./README.md)
 
 
