@@ -34,6 +34,7 @@
 * [RedPitayaLIA](./RedPitayaLIA.md)
 * [tasks](./tasks.md)
 * [oscilloscopeLOCKIN](./oscilloscopeLOCKIN.md)
+* [noise](./noise.md)
 
 ----
 
