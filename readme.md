@@ -53,7 +53,7 @@ It seems (in the current stage of our research) the best options are:
  
  In year 2021/2022, my focus is changing to FPGA implementations  
 
- A  new consideration arised during the covid19 pandemic: FPGAs, Microcontrollers and a wide range off other ICs have reduced or no availability. Any new design has to take this issue to account. Since FPGA-ICs are almost impossible to purchase, we review **FPGA-Boards**, which have better availabilty than ICs today (Feb 2022) 
+ A  new consideration arised during the covid19 pandemic: FPGAs, Microcontrollers and a wide range off other ICs have reduced or no availability. Any new design has to take this issue to account. Since FPGA-ICs are almost impossible to purchase, we review **FPGA-Boards**, which have better availabilty than ICs  (Feb 2022) 
  * **DE0-nano** FPGA board with ALTERA, costing **€90**
    * Need to design/test from scratch an ADC/DAC piggy-back board
    * Need to design/test a LIA in FPGA HDL (VHDL/Verilog)
@@ -61,15 +61,13 @@ It seems (in the current stage of our research) the best options are:
    * *The effort to create a LIA instrument, is focused on precise Analog electronics design, ADC/DAC interfacing to FPGA and HDL design/coding*
  * **Red-Pitaya** FPGA board with XILINX at **€300**, with integrated `[125MHz 14bit ADC] & [125MHz 14bit DAC]`
    * Designed to be used as a low cost and high performance measurening instrument (oscilloscope, analyzers, etc...)
-   * Evaluate/Use open source LIA firmware
+   * Evaluate / Use open source LIA firmware
    * Scientific community and publications
    * Python control via a host
    * A variety of Python libraries
    * Instrument type interfaces PyVISA and more
    * *The effort to create a LIA instrument, is focused to PC Software engineering*
- * ...
-
-
+ 
 
 ## SRS Standford Research Systems Manual
 * SRS [Application Note #3: About Lock-In Amplifiers](https://web.physics.indiana.edu/courses/p451/background_info/SRS_Lock-In_Amplifiers.pdf)
@@ -91,7 +89,8 @@ width = 500
 ## Use-cases Input signal requirements
 ### Photo-acoustic Laser Gas Analyzer
 * Signal level we get from a QEPAS Laser Gas Analyzer photoacoustic sensor: 30pA
-* Output of the  preamplifier: 300μV
+* Max Output of the  preamplifier: 300 μV
+* Min Output of the  preamplifier: ??? μV
 * Reference frequency: 2.5KHz
 
 ----
