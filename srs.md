@@ -16,7 +16,7 @@ width = 900
 
 ## PSD
 The PSD can detect the signal at 10 kHz with a bandwidth as narrow as 0.01 Hz!
-123
+
 ### Phase Sensitive Detector 
 ### @10 KHz BW 0.01Hz
 
@@ -123,6 +123,8 @@ in dB.
 To achieve high reserve, the input signal gain is set very low
 so the noise is not likely to overload. This means that the
 signal at the PSD is also very small
+
+
 ### Low signal gain --> high reserve
 
 In an analog lock-in, large noise
