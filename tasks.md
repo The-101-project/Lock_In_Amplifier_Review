@@ -13,3 +13,4 @@
 - [x] Solve the large image for RP sd-card download issue
 - [ ] Find the frequency resolution for RePLIA
 - [ ] Find the meaning of 90 nV/√Hz and how to emulate that
+- [x] Backup `RP_Lock-in_copy.img` 3.9GB file
