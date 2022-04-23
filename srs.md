@@ -120,10 +120,19 @@ largest tolerable noise signal to the full-scale signal, expressed
 in dB.
 ### (largest tolerable noise signal) / (full-scale signal), in dB
 
+----
+
+$$
+x = \frac { largest tolerable noise signal} { full-scale signal } (dB)
+$$
+
+----
+
 To achieve high reserve, the input signal gain is set very low
 so the noise is not likely to overload. This means that the
 signal at the PSD is also very small
 
+* [Mathpix Markdown Syntax Reference](https://mathpix.com/docs/mathpix-markdown/syntax-reference)
 
 ### Low signal gain --> high reserve
 
