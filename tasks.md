@@ -10,9 +10,9 @@
 - [x] Add images
 - [x] Add some conclusions
 - [x] Solve the large image for RP sd-card download issue
-- [ ] Find the frequency resolution for RePLIA
 - [ ] Find the meaning of 90 nV/√Hz and how to emulate that
 ----
+- [ ] Find the frequency resolution for RePLIA
 - [ ] Compare RePLIA with other RedPitaya LIA solutions
 - [x] Backup `RP_Lock-in_copy.img` 3.9GB file
 - [x] Backup Start testing RePLIA
@@ -30,3 +30,5 @@
     - Oscilloscope+Lock-in+PID (0.1-3) is here too
 - [x] Create a new lock-in-pid.md
 - [ ] review [rp_lock-in_pid Derivated versions](https://marceluda.github.io/rp_lock-in_pid/Derivated/)
+----
+- [ ] View Xilinx Vivado related video [Tutorial 01 How to do Bare Metal Programming with Red Pitaya](https://www.youtube.com/watch?v=XJbEn_-hjYc)
