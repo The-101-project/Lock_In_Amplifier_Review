@@ -28,3 +28,5 @@ width = 900
 ## Tasks
 - [ ] Test with Ethernet cable connection to router
 - [ ] Test the oscilloscope Lock-In method
+- [ ] Order more boards
+- [ ] Order compatible WiFi dongles
