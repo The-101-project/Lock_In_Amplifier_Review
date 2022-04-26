@@ -30,5 +30,7 @@
     - Oscilloscope+Lock-in+PID (0.1-3) is here too
 - [x] Create a new lock-in-pid.md
 - [ ] review [rp_lock-in_pid Derivated versions](https://marceluda.github.io/rp_lock-in_pid/Derivated/)
+- [ ] Download the papers mentioned in [Lock-in+PID](https://marceluda.github.io/rp_lock-in_pid/)
+
 ----
 - [ ] View Xilinx Vivado related video [Tutorial 01 How to do Bare Metal Programming with Red Pitaya](https://www.youtube.com/watch?v=XJbEn_-hjYc)
