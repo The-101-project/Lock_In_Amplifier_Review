@@ -28,3 +28,4 @@
 - [ ] Check RedPitaya  [Bazaar](https://bazaar.redpitaya.com/) for LIA related applications
     - Oscilloscope+Lock-in+PID (0.1-3) is here too
 - [x] Create a new lock-in-pid.md
+- [ ] review [rp_lock-in_pid Derivated versions](https://marceluda.github.io/rp_lock-in_pid/Derivated/)
