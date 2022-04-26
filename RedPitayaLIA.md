@@ -20,6 +20,7 @@
   - [RePLIA Control application](#replia-control-application)
     - [How I made the RePLIA Control application RUN](#how-i-made-the-replia-control-application-run)
     - [Connect the RePLIA controll application to RedPitaya](#connect-the-replia-controll-application-to-redpitaya)
+    - [Verify we are using the correct IP address](#verify-we-are-using-the-correct-ip-address)
   - [Links](#links)
 
 <!-- /code_chunk_output -->
@@ -140,7 +141,7 @@ width = 900
 ----
 
 ## RePLIA Control application
-This is the java aplication running in my windows10 PC
+This is the java aplication running in my windows10 PC. It is not connected to RedPiya.
 <p align="center">
 <img
 src="img/26.PNG"
@@ -165,6 +166,29 @@ src="img/27.PNG"
 width = 900
 />
 </p>
+
+----
+Connected and setup is sent to RedPitaya
+<p align="center">
+<img
+src="img/28.PNG"
+width = 500
+/>
+</p>
+
+----
+
+
+### Verify we are using the correct IP address
+The file config.cfg is created after the Apply button is pressed. Using a wrong IP address the config.cgf file is not affected, so this is a way to confirm we are using the correct IP address
+<p align="center">
+<img
+src="img/29.PNG"
+width = 200
+/>
+</p>
+
+----
 
 ## Links
 
