@@ -21,10 +21,10 @@
 - [ ] Order Redpitaya compatible WiFi dongles
 ----
 - [ ] **Test Redpitaya with Ethernet cable connection to router**
-- [ ] Test the Redpitaya oscilloscope Lock-In method
+- [ ] Test with Redpitaya oscilloscope, the Lock-In method
 ----
 - [ ] Test the [The Lock-in+PID application for Red Pitaya](https://marceluda.github.io/rp_lock-in_pid/TheApp/instruments/instruments_01_intro/)
 - [ ] View [marcelo luda videos](https://www.youtube.com/c/marceloluda/videos) on Lock-in+PID
 - [ ] Check RedPitaya  [Bazaar](https://bazaar.redpitaya.com/) for LIA related applications
-    - [ ] Oscilloscope+Lock-in+PID (0.1-3) is here too
+    - Oscilloscope+Lock-in+PID (0.1-3) is here too
 - [x] Create a new lock-in-pid.md
