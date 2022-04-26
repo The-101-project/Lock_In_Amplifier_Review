@@ -21,6 +21,7 @@
     - [How I made the RePLIA Control application RUN](#how-i-made-the-replia-control-application-run)
     - [Connect the RePLIA controll application to RedPitaya](#connect-the-replia-controll-application-to-redpitaya)
     - [Verify we are using the correct IP address](#verify-we-are-using-the-correct-ip-address)
+  - [Connect with Putty](#connect-with-putty)
   - [Links](#links)
 
 <!-- /code_chunk_output -->
@@ -180,7 +181,7 @@ width = 500
 
 ----
 
-When the Apply button is pressed a command line is executed as below"
+When the Apply button is pressed a command line is executed as below:
 <p align="center">
 <img
 src="img/30.PNG"
@@ -198,6 +199,16 @@ width = 200
 </p>
 
 ----
+
+## Connect with Putty
+
+> ... the default user and password are 'root' and 'nvmag'
+<p align="center">
+<img
+src="img/31.PNG"
+width = 600
+/>
+</p>
 
 ## Links
 
