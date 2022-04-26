@@ -15,6 +15,11 @@
   - [RePLIA](#replia)
     - [nikos review](#nikos-review)
     - [How to emulate a noisy input](#how-to-emulate-a-noisy-input)
+  - [Preparing the SD-CARD](#preparing-the-sd-card)
+  - [Connecting to RP](#connecting-to-rp)
+  - [RePLIA Control application](#replia-control-application)
+    - [How I made the RePLIA Control application RUN](#how-i-made-the-replia-control-application-run)
+  - [Links](#links)
 
 <!-- /code_chunk_output -->
 
@@ -103,6 +108,57 @@ width = 900
 
 ### How to emulate a noisy input
 * nV/√Hz = nanovolt per root Hertz: Spectral noise density
+
+## Preparing the SD-CARD
+RePLIA image for the Redpitaya is 3.9 GB
+<p align="center">
+<img
+src="img/23.PNG"
+width = 700
+/>
+<img
+src="img/24.PNG"
+width = 700
+/>
+</p>
+
+
+
+## Connecting to RP
+* [Connect to Red Pitaya](https://redpitaya.readthedocs.io/en/latest/quickStart/first.html)
+
+connected to rp-f08f57.local/
+
+<p align="center">
+<img
+src="img/25.PNG"
+width = 900
+/>
+</p>
+
+----
+
+## RePLIA Control application
+It is the java aplication running in my windows10 PC
+<p align="center">
+<img
+src="img/26.PNG"
+width = 500
+/>
+</p>
+
+### How I made the RePLIA Control application RUN
+> * Cloned [RePLIA github](https://github.com/WarwickEPR/RePLIA)
+> * Created a dos batch file named run.cmd with content   
+> `java -jar LIAControl.jar`
+> * Updated Java 
+> * Added java to the PATH environmental variable: This [HOW TO](https://www.geeksforgeeks.org/how-to-set-java-path-in-windows-and-linux/) helped me
+> * Call the run.cmd from command prompt
+
+
+
+
+## Links
 
   * [Can anyone give me a laymans explanation of the "nV/rtHz" specification/measure?](https://www.eevblog.com/forum/chat/can-anyone-give-me-a-laymans-explanation-of-the-_nvrthz_-specificationmeasure/)
   * [NOISE ANALYSIS - RESISTOR EXAMPLE](http://www.ecircuitcenter.com/Circuits/Noise/Noise_Analysis/res_noise.htm)
