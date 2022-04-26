@@ -19,6 +19,7 @@
   - [Connecting to RP](#connecting-to-rp)
   - [RePLIA Control application](#replia-control-application)
     - [How I made the RePLIA Control application RUN](#how-i-made-the-replia-control-application-run)
+    - [Connect the RePLIA controll application to RedPitaya](#connect-the-replia-controll-application-to-redpitaya)
   - [Links](#links)
 
 <!-- /code_chunk_output -->
@@ -139,7 +140,7 @@ width = 900
 ----
 
 ## RePLIA Control application
-It is the java aplication running in my windows10 PC
+This is the java aplication running in my windows10 PC
 <p align="center">
 <img
 src="img/26.PNG"
@@ -155,8 +156,15 @@ width = 500
 > * Added java to the PATH environmental variable: This [HOW TO](https://www.geeksforgeeks.org/how-to-set-java-path-in-windows-and-linux/) helped me
 > * Call the run.cmd from command prompt
 
-
-
+### Connect the RePLIA controll application to RedPitaya
+* We need to convert the domain name rp-xxxxxx to IP addresss.
+* I made that by hovering the mouse over the Geotool icon (small greenish circle icon)
+<p align="center">
+<img
+src="img/27.PNG"
+width = 900
+/>
+</p>
 
 ## Links
 
