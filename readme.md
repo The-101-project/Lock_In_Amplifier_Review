@@ -36,6 +36,7 @@
 * [oscilloscopeLOCKIN](./oscilloscopeLOCKIN.md)
 * [noise](./noise.md)
 * [RedPitaya](./RedPitaya.md)
+* [srs](./srs.md)
 
 ----
 
