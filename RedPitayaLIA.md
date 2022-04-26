@@ -212,7 +212,7 @@ width = 600
 </p>
 
 ## Start RePLIA
-This comand starts the RePLIA, and even though there are some Python error messages, it seems the RePLIA is working:
+The comand `./startall.sh` starts the RePLIA, and even though there are some Python error messages, it seems the RePLIA is working:
 * Orange LEDs appear as a binary counter clocked at 1Hz
 * OUT2 has a sawtooth signal at frequency 1Hz
 <p align="center">

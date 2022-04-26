@@ -35,7 +35,7 @@
 * [tasks](./tasks.md)
 * [oscilloscopeLOCKIN](./oscilloscopeLOCKIN.md)
 * [noise](./noise.md)
-* [srs](./srs.md)
+* [RedPitaya](./RedPitaya.md)
 
 ----
 
