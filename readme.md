@@ -37,6 +37,7 @@
 * [noise](./noise.md)
 * [RedPitaya](./RedPitaya.md)
 * [srs](./srs.md)
+* [lock-in-pid.md](./lock-in-pid.md)
 
 ----
 

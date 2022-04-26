@@ -27,3 +27,4 @@
 - [ ] View [marcelo luda videos](https://www.youtube.com/c/marceloluda/videos) on Lock-in+PID
 - [ ] Check RedPitaya  [Bazaar](https://bazaar.redpitaya.com/) for LIA related applications
     - [ ] Oscilloscope+Lock-in+PID (0.1-3) is here too
+- [x] Create a new lock-in-pid.md
