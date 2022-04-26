@@ -34,3 +34,7 @@
 
 ----
 - [ ] View Xilinx Vivado related video [Tutorial 01 How to do Bare Metal Programming with Red Pitaya](https://www.youtube.com/watch?v=XJbEn_-hjYc)
+
+----
+- [ ] Review [PyRPL](https://pyrpl.readthedocs.io/en/latest/) with focus to Lock In Amplifiers
+- Also [https://github.com/lneuhaus/pyrpl](https://github.com/lneuhaus/pyrpl)
