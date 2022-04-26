@@ -37,4 +37,11 @@
 
 ----
 - [ ] Review [PyRPL](https://pyrpl.readthedocs.io/en/latest/) with focus to Lock In Amplifiers
-- Also [https://github.com/lneuhaus/pyrpl](https://github.com/lneuhaus/pyrpl)
+- [ ] Also [https://github.com/lneuhaus/pyrpl](https://github.com/lneuhaus/pyrpl)
+- [ ] |Review if PyRPL has only 1Hz accuracy[Improvements to my Lock in Amplifier implementation with PyRPL](https://forum.redpitaya.com/viewtopic.php?t=23120)
+- [ ] Review PyRPL IQ module here [api  IQ module](https://pyrpl.readthedocs.io/en/latest/api.html#module-pyrpl.hardware_modules.iq)
+
+----
+- [ ] Review this verilog LIA [ ahesse93/RedPitaya_LockInAmplifier](https://github.com/ahesse93/RedPitaya_LockInAmplifier)
+- [ ] Review [github lock-in-amplifier ](https://github.com/topics/lock-in-amplifier)  projects
+- [ ] Review [First attempts at locking](https://pyrpl.readthedocs.io/en/latest/user_guide/tutorial/#First-attempts-at-locking)
