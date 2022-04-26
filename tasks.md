@@ -14,3 +14,9 @@
 - [ ] Find the frequency resolution for RePLIA
 - [ ] Find the meaning of 90 nV/√Hz and how to emulate that
 - [x] Backup `RP_Lock-in_copy.img` 3.9GB file
+- [x] Backup Start testing RePLIA
+- [ ] Make a list with first test results on RePLIA
+- [ ] Test Redpitaya with Ethernet cable connection to router
+- [ ] Test the Redpitaya oscilloscope Lock-In method
+- [ ] Order more Redpitaya boards
+- [ ] Order Redpitaya compatible WiFi dongles
