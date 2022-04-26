@@ -22,6 +22,7 @@
     - [Connect the RePLIA controll application to RedPitaya](#connect-the-replia-controll-application-to-redpitaya)
     - [Verify we are using the correct IP address](#verify-we-are-using-the-correct-ip-address)
   - [Connect with Putty](#connect-with-putty)
+  - [Start RePLIA](#start-replia)
   - [Links](#links)
 
 <!-- /code_chunk_output -->
@@ -209,6 +210,27 @@ src="img/31.PNG"
 width = 600
 />
 </p>
+
+## Start RePLIA
+This comand starts the RePLIA, and even though there are some Python error messages, it seems the RePLIA is working:
+* Orange LEDs appear as a binary counter clocked at 1Hz
+* OUT2 has a sawtooth signal at frequency 1Hz
+<p align="center">
+<img
+src="img/32.PNG"
+width = 600
+/>
+</p>
+
+
+
+
+
+
+
+
+
+
 
 ## Links
 
