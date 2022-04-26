@@ -180,6 +180,13 @@ width = 500
 
 ----
 
+When the Apply button is pressed a command line is executed as below"
+<p align="center">
+<img
+src="img/30.PNG"
+width = 900
+/>
+</p>
 
 ### Verify we are using the correct IP address
 The file config.cfg is created after the Apply button is pressed. Using a wrong IP address the config.cgf file is not affected, so this is a way to confirm we are using the correct IP address
