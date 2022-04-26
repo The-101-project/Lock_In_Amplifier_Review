@@ -13,7 +13,7 @@ It works but it is rather slow and has no Internet
 
 ## Test the Oscilloscope/generator app
 
-Very implressive!!
+Very impressive!!
 
 <p align="center">
 <img
@@ -22,3 +22,9 @@ width = 900
 />
 </p>
 
+----
+
+
+## Tasks
+- [ ] Test with Ethernet cable connection to router
+- [ ] Test the oscilloscope Lock-In method
