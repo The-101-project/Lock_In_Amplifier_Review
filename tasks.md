@@ -20,3 +20,5 @@
 - [ ] Test the Redpitaya oscilloscope Lock-In method
 - [ ] Order more Redpitaya boards
 - [ ] Order Redpitaya compatible WiFi dongles
+- [ ] Test the [The Lock-in+PID application for Red Pitaya](https://marceluda.github.io/rp_lock-in_pid/TheApp/instruments/instruments_01_intro/)
+- [ ] View [marcelo luda videos](https://www.youtube.com/c/marceloluda/videos) on Lock-in+PID

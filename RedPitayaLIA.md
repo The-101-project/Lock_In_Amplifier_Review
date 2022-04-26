@@ -23,6 +23,7 @@
     - [Verify we are using the correct IP address](#verify-we-are-using-the-correct-ip-address)
   - [Connect with Putty](#connect-with-putty)
   - [Start RePLIA](#start-replia)
+  - [First day testing conclusions](#first-day-testing-conclusions)
   - [Links](#links)
 
 <!-- /code_chunk_output -->
@@ -223,7 +224,14 @@ width = 600
 </p>
 
 
-
+## First day testing conclusions
+- Tested using the provided sd-card image
+- RePLIA software inside RedPitaya starts, but reports Python error
+- [ ] Find a RepLIA video
+- Some indication it works
+- Can't make it (yet) to output the reference signal, only the scan sawtooth
+- [ ] To understand better the `MODE` of operation and the 14 bits that controll the mode
+- GUI to be verified it communicates with the board
 
 
 
