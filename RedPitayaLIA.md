@@ -138,10 +138,12 @@ width = 900
 />
 </p>
 
+RePLIA is not accessed from the browser menu, but from command line via ssh, or with the RePLIA GUI (RePLIA control application)
+
 ----
 
 ## RePLIA Control application
-This is the java aplication running in my windows10 PC. It is not connected to RedPiya.
+This is the java aplication running in my windows10 PC. It is not connected (yet) to RedPiya.
 <p align="center">
 <img
 src="img/26.PNG"
