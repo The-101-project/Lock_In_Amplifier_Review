@@ -19,7 +19,8 @@ width = 900
 </p>
 
 ### RUN
-Oscilloscope+Lock-In+PID is running [Short demonstration of a lock-in procedure with de Harmonic Lock-in+PID Application for RedPitaya]()
+Oscilloscope+Lock-In+PID is running 
+
 <p align="center">
 <img
 src="img/36.PNG"
