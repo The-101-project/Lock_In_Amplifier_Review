@@ -18,6 +18,8 @@ width = 900
 />
 </p>
 
+----
+
 ### RUN
 Oscilloscope+Lock-In+PID is running 
 
@@ -28,8 +30,23 @@ width = 900
 />
 </p>
 
+----
+
+### FPGA Lock-in implementation
+scheme of the lock-in implementation
+
+----
+
+<p align="center">
+<img
+src="img/37.PNG"
+width = 900
+/>
+</p>
+
+----
 
 - [x] Review [video](https://www.youtube.com/watch?v=330eYE75MYQ) to understand how `Oscilloscope+Lock-In+PID` works
 - [ ] Review [github.io](https://marceluda.github.io/rp_lock-in_pid/)
-
+- [ ] Review [Lock-in](https://marceluda.github.io/rp_lock-in_pid/TheApp/instruments/instruments_04_lock-in/)
 
