@@ -29,6 +29,7 @@ width = 900
 </p>
 
 
-- [ ] Review [video](https://www.youtube.com/watch?v=330eYE75MYQ) to understand how `Oscilloscope+Lock-In+PID` works
+- [x] Review [video](https://www.youtube.com/watch?v=330eYE75MYQ) to understand how `Oscilloscope+Lock-In+PID` works
+- [ ] Review [github.io](https://marceluda.github.io/rp_lock-in_pid/)
 
 
