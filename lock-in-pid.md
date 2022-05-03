@@ -54,5 +54,6 @@ width = 900
 - [ ] L4. Review [Lock-in](https://marceluda.github.io/rp_lock-in_pid/TheApp/instruments/instruments_04_lock-in/)
 - [ ] L5 Review [Internal Oscillator](https://marceluda.github.io/rp_lock-in_pid/TheApp/instruments/instruments_05_modulation/)
 - [ ] L6 Review [ramp generator](https://marceluda.github.io/rp_lock-in_pid/TheApp/instruments/instruments_06_ramp_gen/)
+- [ ] L7 Review [Intruments on App](https://marceluda.github.io/rp_lock-in_pid/TheApp/instruments/instruments_01_intro/)
 
 
