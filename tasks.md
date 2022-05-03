@@ -21,6 +21,7 @@
 - [ ] Order more Redpitaya boards
 - [ ] Order Redpitaya compatible WiFi dongles
 ----
+- [x] Find the Ethernet cable
 - [ ] **Test Redpitaya with Ethernet cable connection to router**
 - [ ] Test with Redpitaya oscilloscope, the Lock-In method
 ----
