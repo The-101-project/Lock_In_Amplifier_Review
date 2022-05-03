@@ -46,7 +46,7 @@ width = 900
 
 ----
 
-- [x] Review [video](https://www.youtube.com/watch?v=330eYE75MYQ) to understand how `Oscilloscope+Lock-In+PID` works
-- [ ] Review [github.io](https://marceluda.github.io/rp_lock-in_pid/)
-- [ ] Review [Lock-in](https://marceluda.github.io/rp_lock-in_pid/TheApp/instruments/instruments_04_lock-in/)
+- [x] L1. Review [video](https://www.youtube.com/watch?v=330eYE75MYQ) to understand how `Oscilloscope+Lock-In+PID` works
+- [ ] L2. Review [github.io](https://marceluda.github.io/rp_lock-in_pid/)
+- [ ] L3. Review [Lock-in](https://marceluda.github.io/rp_lock-in_pid/TheApp/instruments/instruments_04_lock-in/)
 
