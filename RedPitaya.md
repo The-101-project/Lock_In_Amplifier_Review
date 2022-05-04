@@ -51,7 +51,24 @@ width = 600
 
 * Hard way [3.2.2.2. Build FPGA image](https://redpitaya.readthedocs.io/en/latest/developerGuide/software/build/fpga/fpga.html)
 * Easy way [Easy FPGA project with Red Pitaya](https://content.redpitaya.com/blog/easy-fpga-project-with-red-pitaya)
+
+----
+
 * [Neuronal imaging Paper](https://sites.bu.edu/biomicroscopy/files/2019/07/Tutorial-on-using-Red-Pitaya-for-AIM.pdf)
+
+This one seems to Modify the WEB-Interface and add a .bit file to the scope+PID App
+
+> 1. Connect to Red Pitaya via SSH.
+> 2. Replace the ‘controllerhf.so’ in /opt/redpitaya/www/apps/scope+pid/ with
+> the file attached in the guide.
+> 3. Modify the ‘fpga.conf’ in /opt/redpitaya/www/apps/scope+pid/ so that it
+> reads: opt/redpitaya/fpga/delay00.bit
+> 4. Copy the delay00.bit attached in the guide to Red Pitaya’s directory
+> opt/redpitaya/fpga/
+
+
+----
+
 * [Thesis: ADC noise measurement
 on FPGA board](https://webthesis.biblio.polito.it/12535/1/tesi.pdf)
 
@@ -83,3 +100,14 @@ If you want to roll back to the normal red pitaya bitstream type:
 > `cat HelloWorld.bin > /dev/xdevcfg`  
 > The 8-bit LEDs will display a binary incremental counter at a rate of 1Hz  
 >  Reboot the Red Pitaya board to reinstall the permanent bitstream on the Zynq FPGA
+
+----
+* [3.2.2.5.3.1. Add a button to control LED](https://redpitaya.readthedocs.io/en/latest/developerGuide/software/build/webapp/webexamples/addLEDbut.html)
+
+```
+1. load fpga_0.94.bit fpga bitstream image
+2. Web UI
+3. Controller main.cpp
+```
+
+----
