@@ -20,6 +20,7 @@
 ----
 - [ ] Order more Redpitaya boards
 - [ ] Order Redpitaya compatible WiFi dongles
+- [ ] Order RedPitaya connectors
 ----
 - [x] Find the Ethernet cable
 - [ ] **Test Redpitaya with Ethernet cable connection to router**
