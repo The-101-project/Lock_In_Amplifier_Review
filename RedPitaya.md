@@ -26,3 +26,15 @@ width = 900
 
 
 ## Tasks
+
+## Fan
+
+* [FAN assembly](https://redpitaya.readthedocs.io/en/latest/developerGuide/hardware/125-14/cooling.html)
+
+
+<p align="center">
+<img
+src="img/38.PNG"
+width = 600
+/>
+</p>
