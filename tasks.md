@@ -21,10 +21,7 @@
 - [x] Backup `RP_Lock-in_copy.img` 3.9GB file
 - [x] Backup Start testing RePLIA
 - [ ] Make a list with first test results on RePLIA
-- [ ] Review [PyRPL](https://pyrpl.readthedocs.io/en/latest/) with focus to Lock In Amplifiers
-- [ ] Also [https://github.com/lneuhaus/pyrpl](https://github.com/lneuhaus/pyrpl)
-- [ ] |Review if PyRPL has only 1Hz accuracy[Improvements to my Lock in Amplifier implementation with PyRPL](https://forum.redpitaya.com/viewtopic.php?t=23120)
-- [ ] Review PyRPL IQ module here [api  IQ module](https://pyrpl.readthedocs.io/en/latest/api.html#module-pyrpl.hardware_modules.iq)
+
 
 ## Orders
 - [ ] Order more Redpitaya boards
@@ -63,6 +60,11 @@
 measurements and experiment active control](https://notablesdelaciencia.conicet.gov.ar/bitstream/handle/11336/147988/CONICET_Digital_Nro.dfbb06a5-b662-4027-9879-b046969bd6a8_A.pdf?sequence=2&isAllowed=y)
 
 ## PyRPL
+- [ ] Review [PyRPL](https://pyrpl.readthedocs.io/en/latest/) with focus to Lock In Amplifiers
+- [ ] Also [https://github.com/lneuhaus/pyrpl](https://github.com/lneuhaus/pyrpl)
+- [ ] |Review if PyRPL has only 1Hz accuracy[Improvements to my Lock in Amplifier implementation with PyRPL](https://forum.redpitaya.com/viewtopic.php?t=23120)
+- [ ] Review PyRPL IQ module here [api  IQ module](https://pyrpl.readthedocs.io/en/latest/api.html#module-pyrpl.hardware_modules.iq)
+----
 - [ ] Review https://github.com/ahesse93/PyRPL-Modification
 - [ ] View Interferometer video with PyRPL
 - [ ] Review https://github.com/lneuhaus/pyrpl
