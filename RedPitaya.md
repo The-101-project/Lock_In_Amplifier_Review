@@ -38,3 +38,11 @@ src="img/38.PNG"
 width = 600
 />
 </p>
+
+Altium pcbLib `RED-PITAYA-BOTTOM-UP` updated with heatsing PCB opening
+<p align="center">
+<img
+src="img/39.PNG"
+width = 600
+/>
+</p>
