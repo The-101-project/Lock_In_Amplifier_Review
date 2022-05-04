@@ -62,7 +62,7 @@ measurements and experiment active control](https://notablesdelaciencia.conicet.
 ## PyRPL
 - [ ] Review [PyRPL](https://pyrpl.readthedocs.io/en/latest/) with focus to Lock In Amplifiers
 - [ ] Also [https://github.com/lneuhaus/pyrpl](https://github.com/lneuhaus/pyrpl)
-- [ ] |Review if PyRPL has only 1Hz accuracy[Improvements to my Lock in Amplifier implementation with PyRPL](https://forum.redpitaya.com/viewtopic.php?t=23120)
+- [ ] Review if PyRPL has only 1Hz accuracy [Improvements to my Lock in Amplifier implementation with PyRPL](https://forum.redpitaya.com/viewtopic.php?t=23120)
 - [ ] Review PyRPL IQ module here [api  IQ module](https://pyrpl.readthedocs.io/en/latest/api.html#module-pyrpl.hardware_modules.iq)
 ----
 - [ ] Review https://github.com/ahesse93/PyRPL-Modification
@@ -71,4 +71,4 @@ measurements and experiment active control](https://notablesdelaciencia.conicet.
 - [ ] Review https://pyrpl.readthedocs.io/en/latest/
 
 ## PSPRT
-- [ ] Make a simple diagram for the QEPS LIA operation
+- [ ] Make a simple diagram for the QEPAS LIA operation
