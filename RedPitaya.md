@@ -51,3 +51,28 @@ width = 600
 
 * Hard way [3.2.2.2. Build FPGA image](https://redpitaya.readthedocs.io/en/latest/developerGuide/software/build/fpga/fpga.html)
 * Easy way [Easy FPGA project with Red Pitaya](https://content.redpitaya.com/blog/easy-fpga-project-with-red-pitaya)
+* [Neuronal imaging Paper](https://sites.bu.edu/biomicroscopy/files/2019/07/Tutorial-on-using-Red-Pitaya-for-AIM.pdf)
+* [Thesis: ADC noise measurement
+on FPGA board](https://webthesis.biblio.polito.it/12535/1/tesi.pdf)
+
+----
+
+* FPGA + C [Red-Pitaya-Levitodynamics-Feedback-Project](https://github.com/gerardpc/Red-Pitaya-Levitodynamics-Feedback)
+
+...To load our bitstream to the FPGA 
+```
+> cat /root/whatever_name_you_like.bit > /dev/xdevcfg
+```
+
+```
+> gcc some_code.c -o some_code.o -lm
+> ./some_code.o
+```
+
+If you want to roll back to the normal red pitaya bitstream type:
+
+```
+> cat /opt/redpitaya/fpga/fpga_X.XX.bit > /dev/xdevcfg
+```
+
+----
