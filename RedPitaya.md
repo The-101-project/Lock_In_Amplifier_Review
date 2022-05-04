@@ -8,7 +8,7 @@
 * Burn image to sd-card with balenaEtcher
 
 
-## Connect Ethernet dirctly with PC
+## Connect Ethernet directly with PC
 It works but it is rather slow and has no Internet
 
 ## Test the Oscilloscope/generator app
@@ -46,3 +46,8 @@ src="img/39.PNG"
 width = 600
 />
 </p>
+
+## Program the FPGA
+
+* Hard way [3.2.2.2. Build FPGA image](https://redpitaya.readthedocs.io/en/latest/developerGuide/software/build/fpga/fpga.html)
+* Easy way [Easy FPGA project with Red Pitaya](https://content.redpitaya.com/blog/easy-fpga-project-with-red-pitaya)

@@ -46,7 +46,7 @@ width = 900
 
 ----
 
-## Tasks
+## Tasks lock-in-pid
 
 - [x] L1. Review [video](https://www.youtube.com/watch?v=330eYE75MYQ) to understand how `Oscilloscope+Lock-In+PID` works
 - [ ] L2. Review [github.io/rp_lock-in_pid](https://marceluda.github.io/rp_lock-in_pid/)
