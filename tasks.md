@@ -67,3 +67,6 @@ measurements and experiment active control](https://notablesdelaciencia.conicet.
 - [ ] View Interferometer video with PyRPL
 - [ ] Review https://github.com/lneuhaus/pyrpl
 - [ ] Review https://pyrpl.readthedocs.io/en/latest/
+
+## PSPRT
+- [ ] Make a simple diagram for the QEPS LIA operation
