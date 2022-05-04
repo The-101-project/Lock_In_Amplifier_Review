@@ -30,13 +30,12 @@
 
 ## Local Links
 
-
+* [RedPitaya](./RedPitaya.md)
 * [RedPitayaLIA](./RedPitayaLIA.md)
 * [tasks](./tasks.md)
 * [oscilloscopeLOCKIN](./oscilloscopeLOCKIN.md)
 * [noise](./noise.md)
 * [srs](./srs.md)
-* [RedPitaya](./RedPitaya.md)
 * [lock-in-PID.md](./lock-in-pid.md)
 * [RepLIA](./RePLIA.md)
 * [QEPAS Red Pitaya](./qepas_redpitaya.md)
