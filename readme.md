@@ -35,10 +35,11 @@
 * [tasks](./tasks.md)
 * [oscilloscopeLOCKIN](./oscilloscopeLOCKIN.md)
 * [noise](./noise.md)
-* [RedPitaya](./RedPitaya.md)
 * [srs](./srs.md)
-* [lock-in-pid.md](./lock-in-pid.md)
-* [ QEPAS Red Pitaya](./qepas_redpitaya.md)
+* [RedPitaya](./RedPitaya.md)
+* [lock-in-PID.md](./lock-in-pid.md)
+* [RepLIA](./RePLIA.md)
+* [QEPAS Red Pitaya](./qepas_redpitaya.md)
 
 ----
 
