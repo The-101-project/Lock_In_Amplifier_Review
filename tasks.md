@@ -33,9 +33,9 @@
 
 ## Testing
 - [x] Find the Ethernet cable
-- [ ] **Test Redpitaya with Ethernet cable connection to router**
+- [x] **Test Redpitaya with Ethernet cable connection to router**
 - [ ] Test with Redpitaya oscilloscope, the Lock-In method
-- [ ] [Add a button to control LED](https://redpitaya.readthedocs.io/en/latest/developerGuide/software/build/webapp/webexamples/addLEDbut.html)
+- [ ] **Add a button to control LED** [LED](https://redpitaya.readthedocs.io/en/latest/developerGuide/software/build/webapp/webexamples/addLEDbut.html)
 
 ##  The Lock-in+PID application
 - [ ] Test the [The Lock-in+PID application for Red Pitaya](https://marceluda.github.io/rp_lock-in_pid/TheApp/instruments/instruments_01_intro/)
