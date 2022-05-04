@@ -55,7 +55,7 @@
 ## Other RP LIA
 - [ ] Review this **verilog LIA** [ ahesse93/RedPitaya_LockInAmplifier](https://github.com/ahesse93/RedPitaya_LockInAmplifier)
 - [ ] Review [github lock-in-amplifier ](https://github.com/topics/lock-in-amplifier)  projects
-- [ ] Review [First attempts at locking](https://pyrpl.readthedocs.io/en/latest/user_guide/tutorial/#First-attempts-at-locking)
+
 - [ ] Review (Argentina) [Compact embedded device for lock-in
 measurements and experiment active control](https://notablesdelaciencia.conicet.gov.ar/bitstream/handle/11336/147988/CONICET_Digital_Nro.dfbb06a5-b662-4027-9879-b046969bd6a8_A.pdf?sequence=2&isAllowed=y)
 
@@ -64,7 +64,10 @@ measurements and experiment active control](https://notablesdelaciencia.conicet.
 - [ ] Also [https://github.com/lneuhaus/pyrpl](https://github.com/lneuhaus/pyrpl)
 - [ ] Review if PyRPL has only 1Hz accuracy [Improvements to my Lock in Amplifier implementation with PyRPL](https://forum.redpitaya.com/viewtopic.php?t=23120)
 - [ ] Review PyRPL IQ module here [api  IQ module](https://pyrpl.readthedocs.io/en/latest/api.html#module-pyrpl.hardware_modules.iq)
+- [ ] Review [First attempts at locking](https://pyrpl.readthedocs.io/en/latest/user_guide/tutorial/#First-attempts-at-locking)
+
 ----
+
 - [ ] Review https://github.com/ahesse93/PyRPL-Modification
 - [ ] View Interferometer video with PyRPL
 - [ ] Review https://github.com/lneuhaus/pyrpl
@@ -72,3 +75,6 @@ measurements and experiment active control](https://notablesdelaciencia.conicet.
 
 ## PSPRT
 - [ ] Make a simple diagram for the QEPAS LIA operation
+   - [ ] Frequency resolution
+   - [ ] Ramp period
+   - [ ] Modulation
