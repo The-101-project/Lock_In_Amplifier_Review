@@ -74,7 +74,10 @@ measurements and experiment active control](https://notablesdelaciencia.conicet.
 - [ ] Review https://pyrpl.readthedocs.io/en/latest/
 
 ## PSPRT
-- [ ] Make a simple diagram for the QEPAS LIA operation
+- [ ] **Make a simple diagram for the QEPAS LIA operation**
+   - [ ] Review my Markdown notes
+   - [ ] Review PSPRT reports
    - [ ] Frequency resolution
    - [ ] Ramp period
    - [ ] Modulation
+- [ ] Ask DAC/ADC board schematic
