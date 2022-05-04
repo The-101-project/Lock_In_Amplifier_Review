@@ -52,7 +52,8 @@ width = 900
 - [ ] L2. Review [github.io/rp_lock-in_pid](https://marceluda.github.io/rp_lock-in_pid/)
 - [ ] L3 [scope](https://marceluda.github.io/rp_lock-in_pid/TheApp/instruments/instruments_02_scope/)
 - [ ] L4. Review [Lock-in](https://marceluda.github.io/rp_lock-in_pid/TheApp/instruments/instruments_04_lock-in/)
-- [ ] L5 Review [Internal Oscillator](https://marceluda.github.io/rp_lock-in_pid/TheApp/instruments/instruments_05_modulation/)
+- [x] L5 Review [Internal Oscillator](https://marceluda.github.io/rp_lock-in_pid/TheApp/instruments/instruments_05_modulation/)
+  - [x] Best resolution --> ~ 0.3 Hz with square oscillator, has no DDS
 - [ ] L6 Review [ramp generator](https://marceluda.github.io/rp_lock-in_pid/TheApp/instruments/instruments_06_ramp_gen/)
 - [ ] L7 Review [Intruments on App](https://marceluda.github.io/rp_lock-in_pid/TheApp/instruments/instruments_01_intro/)
 - [ ] L8. Review [Derivated versions](https://marceluda.github.io/rp_lock-in_pid/Derivated/)
