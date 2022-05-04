@@ -76,3 +76,10 @@ If you want to roll back to the normal red pitaya bitstream type:
 ```
 
 ----
+
+* [RedPitayaHelloWorldVHDL](https://github.com/lvillasen/RedPitayaHelloWorldVHDL)
+
+> ...   
+> `cat HelloWorld.bin > /dev/xdevcfg`  
+> The 8-bit LEDs will display a binary incremental counter at a rate of 1Hz  
+>  Reboot the Red Pitaya board to reinstall the permanent bitstream on the Zynq FPGA
