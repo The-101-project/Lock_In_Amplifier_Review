@@ -64,3 +64,4 @@ measurements and experiment active control](https://notablesdelaciencia.conicet.
 
 ## PyRPL
 - [ ] Review https://github.com/ahesse93/PyRPL-Modification
+- [ ] View Interferometer video with PyRPL
