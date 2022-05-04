@@ -78,11 +78,11 @@ measurements and experiment active control](https://notablesdelaciencia.conicet.
    - [x] Review my Markdown notes
         - [x] Review PSPRT reports
         - [x] LIA Reference signal output: Sinousiodal
-        - [x] Frequency resolution: 0.1 Hz --> as agreed 
-        - [x] Frequency resolution best rsolution possible 0.011hZ
-        - [X] Resonance: 12448Hz
-        - [x] Measurement time for each frequency: 100ms
+        - [x] Frequency resolution: 0.1 Hz 
+        - [x] Frequency resolution: best  possible 0.011hZ
+        - [X] Resonance QEPAS: 12448Hz
         - [x] LPF: 2.5Hz
-        - [x] Ramp period: for 1800 points arount resonance--> 3min (180s)
+        - [x] Measurement time for each frequency: 100ms
+        - [x] Ramp period: for 1800 points arount resonance--> 3min (1800points x 0.1s = 180s)
         - [ ] Modulation
 - [ ] Ask DAC/ADC board schematic
