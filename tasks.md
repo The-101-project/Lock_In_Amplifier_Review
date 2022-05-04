@@ -42,6 +42,7 @@
 - [ ] Also [https://github.com/lneuhaus/pyrpl](https://github.com/lneuhaus/pyrpl)
 - [ ] |Review if PyRPL has only 1Hz accuracy[Improvements to my Lock in Amplifier implementation with PyRPL](https://forum.redpitaya.com/viewtopic.php?t=23120)
 - [ ] Review PyRPL IQ module here [api  IQ module](https://pyrpl.readthedocs.io/en/latest/api.html#module-pyrpl.hardware_modules.iq)
+- [ ] Review [programming examples](https://redpitaya.readthedocs.io/en/latest/appsFeatures/remoteControl/remoteControl.html#examples)
 
 ----
 - [ ] Review this verilog LIA [ ahesse93/RedPitaya_LockInAmplifier](https://github.com/ahesse93/RedPitaya_LockInAmplifier)
