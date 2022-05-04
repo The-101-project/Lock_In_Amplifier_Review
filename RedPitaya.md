@@ -102,11 +102,15 @@ If you want to roll back to the normal red pitaya bitstream type:
 >  Reboot the Red Pitaya board to reinstall the permanent bitstream on the Zynq FPGA
 
 ----
-* [3.2.2.5.3.1. Add a button to control LED](https://redpitaya.readthedocs.io/en/latest/developerGuide/software/build/webapp/webexamples/addLEDbut.html)
+* [3.2.2.5.3.1. ](https://redpitaya.readthedocs.io/en/latest/developerGuide/software/build/webapp/webexamples/addLEDbut.html)
 
 ```
 1. load fpga_0.94.bit fpga bitstream image
+    - cat /opt/redpitaya/fpga/fpga_0.94.bit > /dev/xdevcfg
 2. Web UI
+    - index.html
+    - style.css
+    - app.js
 3. Controller main.cpp
 ```
 
