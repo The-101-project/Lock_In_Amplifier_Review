@@ -77,12 +77,12 @@ measurements and experiment active control](https://notablesdelaciencia.conicet.
 - [ ] **Make a simple diagram for the QEPAS LIA operation**
    - [x] Review my Markdown notes
         - [x] Review PSPRT reports
-        - [x] LIA Reference signal output: Sinousiodal
+        - [x] LIA Reference signal output: Sinusiodal
         - [x] Frequency resolution: 0.1 Hz 
-        - [x] Frequency resolution: best  possible 0.011hZ
+        - [x] Frequency resolution: best  possible 0.011 Hz
         - [X] Resonance QEPAS: 12448Hz
         - [x] LPF: 2.5Hz
         - [x] Measurement time for each frequency: 100ms
-        - [x] Ramp period: for 1800 points arount resonance--> 3min (1800points x 0.1s = 180s)
+        - [x] Ramp period: for 1800 points around resonance--> 3min (1800points x 0.1s = 180s)
         - [ ] Modulation
 - [ ] Ask DAC/ADC board schematic
