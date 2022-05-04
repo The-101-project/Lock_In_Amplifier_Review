@@ -14,6 +14,10 @@
 - [Lock_In_Amplifier_Review](#lock_in_amplifier_review)
   - [Contents](#contents)
   - [Local Links](#local-links)
+    - [Tasks](#tasks)
+    - [Generic](#generic)
+    - [Red Pitaya general](#red-pitaya-general)
+    - [LIA with Red Pitaya](#lia-with-red-pitaya)
   - [Overview](#overview)
   - [SRS Standford Research Systems Manual](#srs-standford-research-systems-manual)
   - [Use-cases Input signal requirements](#use-cases-input-signal-requirements)
@@ -29,15 +33,19 @@
 ----
 
 ## Local Links
+
+### Tasks
 * [tasks](./tasks.md)
-----
+
+### Generic
 * [oscilloscopeLOCKIN](./oscilloscopeLOCKIN.md)
 * [noise](./noise.md)
 * [srs](./srs.md)
-----
 
+### Red Pitaya general
 * [RedPitaya](./RedPitaya.md)
-----
+
+### LIA with Red Pitaya
 * [RedPitayaLIA](./RedPitayaLIA.md)
 * [lock-in-PID.md](./lock-in-pid.md)
 * [RepLIA](./RePLIA.md)
