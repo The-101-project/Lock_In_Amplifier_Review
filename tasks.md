@@ -35,6 +35,7 @@
 - [x] Find the Ethernet cable
 - [x] **Test Redpitaya with Ethernet cable connection to router**
 - [ ] Test with Redpitaya oscilloscope, the Lock-In method
+- [ ] Connect to Red Pitaya with Putty
 - [ ] **Add a button to control LED** [LED](https://redpitaya.readthedocs.io/en/latest/developerGuide/software/build/webapp/webexamples/addLEDbut.html)
 
 ##  The Lock-in+PID application
