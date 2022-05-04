@@ -38,6 +38,7 @@
 * [RedPitaya](./RedPitaya.md)
 * [srs](./srs.md)
 * [lock-in-pid.md](./lock-in-pid.md)
+* [ QEPAS Red Pitaya](./qepas_redpitaya.md)
 
 ----
 

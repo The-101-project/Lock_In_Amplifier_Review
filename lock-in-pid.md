@@ -46,6 +46,10 @@ width = 900
 
 ----
 
+## Related publications
+* [Compact embedded device for lock-in
+measurements and experiment active control](https://notablesdelaciencia.conicet.gov.ar/bitstream/handle/11336/147988/CONICET_Digital_Nro.dfbb06a5-b662-4027-9879-b046969bd6a8_A.pdf?sequence=2&isAllowed=y)
+
 ## Tasks lock-in-pid
 
 - [x] L1. Review [video](https://www.youtube.com/watch?v=330eYE75MYQ) to understand how `Oscilloscope+Lock-In+PID` works
