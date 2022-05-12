@@ -11,11 +11,10 @@
 - [RedPitayaLIA](#redpitayalia)
   - [Red Pitaya Lock In](#red-pitaya-lock-in)
   - [Red Pitaya LIA options](#red-pitaya-lia-options)
-    - [Lock-in+PID](#lock-inpid)
-    - [An open-source high-frequency lock-in amplifier](#an-open-source-high-frequency-lock-in-amplifier)
-    - [PyRPL](#pyrpl)
-    - [Linien](#linien)
-    - [SCPI server](#scpi-server)
+    - [1. Lock-in+PID](#1-lock-inpid)
+    - [2. An open-source high-frequency lock-in amplifier](#2-an-open-source-high-frequency-lock-in-amplifier)
+    - [3. PyRPL](#3-pyrpl)
+    - [4. Linien](#4-linien)
   - [Links](#links)
 
 <!-- /code_chunk_output -->
@@ -30,7 +29,7 @@
    * A variety of Python libraries
    * Instrument type interfaces PyVISA and more
    * *The effort to create a LIA instrument, is focused to PC Software engineering*
-
+   * [SCPI server (MATLAB, LabVIEW, Scilab or Python)](https://redpitaya.com/rtd-iframe/?iframe=https://redpitaya.readthedocs.io/en/latest/appsFeatures/remoteControl/remoteAndProg.html)
 
 ## Red Pitaya Lock In
 
@@ -48,25 +47,28 @@ Most open source FPGA LIA implementations today (Feb 2022) seem to be based on t
 
 ## Red Pitaya LIA options
 
-### Lock-in+PID
-A complete instrument: Open source XILINX code and PC Python? Software.  
+### 1. Lock-in+PID
+* A complete instrument: Open source XILINX code and PC Python? Software. 
+* This is the easiest to install and test, as it is available in RP market-place 
 
 * [Red Pitaya Lock-in+PID Application](https://github.com/marceluda/rp_lock-in_pid/)
 * [Lock-in+PID](https://marceluda.github.io/rp_lock-in_pid/)
 
-### An open-source high-frequency lock-in amplifier
+### 2. An open-source high-frequency lock-in amplifier
 * [An open-source high-frequency lock-in amplifier](https://aip.scitation.org/doi/10.1063/1.5083797) 
 
-### PyRPL
+### 3. PyRPL
 * [PyRPL](https://pyrpl.readthedocs.io/en/latest/)  turns your RedPitaya into a powerful DSP device, especially suitable as a digital lockbox and measurement device in quantum optics experiments
 
-### Linien
+### 4. Linien
 User-friendly locking of lasers using RedPitaya (STEMlab 125-14) that just works
 * [linien](https://pypi.org/project/linien/) User-friendly locking of lasers using RedPitaya (STEMlab 125-14) that just works
 * [linien github](https://github.com/linien-org/linien)
+* [Cornell](https://arxiv.org/abs/2203.02947)
+* [Linien project metrics](https://kandi.openweaver.com/python/hermitdemschoenenleben/linien#Summary)
 
-### SCPI server
-* [SCPI server (MATLAB, LabVIEW, Scilab or Python)](https://redpitaya.com/rtd-iframe/?iframe=https://redpitaya.readthedocs.io/en/latest/appsFeatures/remoteControl/remoteAndProg.html)
+
+
 
 
 
