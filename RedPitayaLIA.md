@@ -10,8 +10,12 @@
 
 - [RedPitayaLIA](#redpitayalia)
   - [Red Pitaya Lock In](#red-pitaya-lock-in)
+  - [Red Pitaya LIA options](#red-pitaya-lia-options)
     - [Lock-in+PID](#lock-inpid)
-    - [Red Pitaya References](#red-pitaya-references)
+    - [An open-source high-frequency lock-in amplifier](#an-open-source-high-frequency-lock-in-amplifier)
+    - [PyRPL](#pyrpl)
+    - [Linien](#linien)
+    - [SCPI server](#scpi-server)
   - [Links](#links)
 
 <!-- /code_chunk_output -->
@@ -36,11 +40,7 @@ Most open source FPGA LIA implementations today (Feb 2022) seem to be based on t
 * [RS Red Pitaya products](https://uk.rs-online.com/web/b/Red-Pitaya/?cm_mmc=IE-PPC-DS3A-_-google-_-2_IE_EN_Suppliers_Red+Pitaya_Exact-_-Red+Pitaya_Pure-_-red+pitaya&matchtype=e&kwd-23777362289&gclid=Cj0KCQiA09eQBhCxARIsAAYRiynxqvpv4DSHIqQS35pyoZMyPBrtmIszIfYnIXlHKd1gOTzV2A6V3f8aArHlEALw_wcB&gclsrc=aw.ds)
 * [at elektor](https://www.elektor.com/stemlab-125-14-starter-kit)
 * [3D models](https://redpitaya.readthedocs.io/en/latest/developerGuide/hardware/mechSpec.html)
-### Lock-in+PID
-A complete instrument: Open source XILINX code and PC Python? Software.  
-RP communicates to PC via a WEB interface?
-* [Red Pitaya Lock-in+PID Application](https://github.com/marceluda/rp_lock-in_pid/)
-* [Lock-in+PID](https://marceluda.github.io/rp_lock-in_pid/)
+
 
 ----
 
@@ -55,10 +55,27 @@ width = 400
 />
 </p>
 
-### Red Pitaya References
+
+----
+
+## Red Pitaya LIA options
+
+### Lock-in+PID
+A complete instrument: Open source XILINX code and PC Python? Software.  
+RP communicates to PC via a WEB interface?
+* [Red Pitaya Lock-in+PID Application](https://github.com/marceluda/rp_lock-in_pid/)
+* [Lock-in+PID](https://marceluda.github.io/rp_lock-in_pid/)
+
+### An open-source high-frequency lock-in amplifier
 * [An open-source high-frequency lock-in amplifier](https://aip.scitation.org/doi/10.1063/1.5083797) 
+
+### PyRPL
 * [PyRPL](https://pyrpl.readthedocs.io/en/latest/)  turns your RedPitaya into a powerful DSP device, especially suitable as a digital lockbox and measurement device in quantum optics experiments
+
+### Linien
 * [linien](https://pypi.org/project/linien/) User-friendly locking of lasers using RedPitaya (STEMlab 125-14) that just works
+
+### SCPI server
 * [SCPI server (MATLAB, LabVIEW, Scilab or Python)](https://redpitaya.com/rtd-iframe/?iframe=https://redpitaya.readthedocs.io/en/latest/appsFeatures/remoteControl/remoteAndProg.html)
 
 
