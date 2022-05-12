@@ -15,6 +15,7 @@
     - [2. An open-source high-frequency lock-in amplifier](#2-an-open-source-high-frequency-lock-in-amplifier)
     - [3. PyRPL](#3-pyrpl)
     - [4. Linien](#4-linien)
+      - [My testing with Linien](#my-testing-with-linien)
   - [Links](#links)
 
 <!-- /code_chunk_output -->
@@ -68,7 +69,7 @@ User-friendly locking of lasers using RedPitaya (STEMlab 125-14) that just works
 * [Linien project metrics](https://kandi.openweaver.com/python/hermitdemschoenenleben/linien#Summary)
 
 ----
-* My testing with Linien
+#### My testing with Linien
 <p align="center">
 <img
 src="img/40.PNG"
