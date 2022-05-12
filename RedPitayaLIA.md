@@ -50,7 +50,7 @@ Most open source FPGA LIA implementations today (Feb 2022) seem to be based on t
 
 ### Lock-in+PID
 A complete instrument: Open source XILINX code and PC Python? Software.  
-RP communicates to PC via a WEB interface?
+
 * [Red Pitaya Lock-in+PID Application](https://github.com/marceluda/rp_lock-in_pid/)
 * [Lock-in+PID](https://marceluda.github.io/rp_lock-in_pid/)
 
@@ -61,7 +61,9 @@ RP communicates to PC via a WEB interface?
 * [PyRPL](https://pyrpl.readthedocs.io/en/latest/)  turns your RedPitaya into a powerful DSP device, especially suitable as a digital lockbox and measurement device in quantum optics experiments
 
 ### Linien
+User-friendly locking of lasers using RedPitaya (STEMlab 125-14) that just works
 * [linien](https://pypi.org/project/linien/) User-friendly locking of lasers using RedPitaya (STEMlab 125-14) that just works
+* [linien github](https://github.com/linien-org/linien)
 
 ### SCPI server
 * [SCPI server (MATLAB, LabVIEW, Scilab or Python)](https://redpitaya.com/rtd-iframe/?iframe=https://redpitaya.readthedocs.io/en/latest/appsFeatures/remoteControl/remoteAndProg.html)
