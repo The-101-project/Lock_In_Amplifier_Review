@@ -44,19 +44,7 @@ Most open source FPGA LIA implementations today (Feb 2022) seem to be based on t
 
 ----
 
-<p align="center">
-<img
-src="img/12.PNG"
-width = 400
-/>
-<img
-src="img/13.PNG"
-width = 400
-/>
-</p>
 
-
-----
 
 ## Red Pitaya LIA options
 

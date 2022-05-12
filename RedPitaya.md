@@ -2,6 +2,26 @@
 
 * [BACK_TO_TOP](./README.md)
 
+----
+
+Red Pitaya board
+<p align="center">
+<img
+src="img/12.PNG"
+width = 400
+/>
+</p>
+
+Altium PcbLib part with 3D model 
+<p align="center">
+<img
+src="img/13.PNG"
+width = 400
+/>
+</p>
+
+
+----
 
 ## Download the standard  Red Pitaya SD card image
 * Download [ Prepare SD card](https://redpitaya.readthedocs.io/en/latest/quickStart/SDcard/SDcard.html)
