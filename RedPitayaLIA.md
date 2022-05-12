@@ -67,6 +67,34 @@ User-friendly locking of lasers using RedPitaya (STEMlab 125-14) that just works
 * [Cornell](https://arxiv.org/abs/2203.02947)
 * [Linien project metrics](https://kandi.openweaver.com/python/hermitdemschoenenleben/linien#Summary)
 
+----
+* My testing with Linien
+<p align="center">
+<img
+src="img/40.PNG"
+width = 900
+/>
+</p>
+
+```
+I just installed linien to RP.
+
+I start having some understanding on what is the meaning of ‘Spectroscopy’
+It seems they always sweep the reference to a wide range. Linien goes up to 50MHz
+
+We can’t have a static reference, and we cant set a sweep range (??)
+The modulation frequency can be set.
+Demodulation can be set 1,2,3,4,5 x Reference
+Filter can be down to 1Hz, not lower.
+
+If I understand correctly this way of operation is not useful for us
+We want to be able to control the Reference.
+
+But if you have time to read the documentation, you  might be able to understand better?`
+
+```
+
+----
 
 
 
