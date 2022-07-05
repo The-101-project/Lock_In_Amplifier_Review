@@ -66,9 +66,9 @@ measurements and experiment active control](https://notablesdelaciencia.conicet.
 - [ ] 33. Review PyRPL IQ module here [api  IQ module](https://pyrpl.readthedocs.io/en/latest/api.html#module-pyrpl.hardware_modules.iq)
 - [ ] 34. Review [First attempts at locking](https://pyrpl.readthedocs.io/en/latest/user_guide/tutorial/#First-attempts-at-locking)
 
-----
+### PyRPL to gloss
 
-- [ ] 35. eview https://github.com/ahesse93/PyRPL-Modification
+- [ ] 35. review https://github.com/ahesse93/PyRPL-Modification
 - [ ] 36. View Interferometer video with PyRPL
 - [ ] 37. Review https://github.com/lneuhaus/pyrpl
 - [ ] 38. Review https://pyrpl.readthedocs.io/en/latest/
