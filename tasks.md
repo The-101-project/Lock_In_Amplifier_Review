@@ -59,9 +59,39 @@
 
 ## Programming
 
-- [ ] 26. Review [programming examples](https://redpitaya.readthedocs.io/en/latest/appsFeatures/remoteControl/remoteControl.html#examples)
+- [x] 26. Review [programming examples](https://redpitaya.readthedocs.io/en/latest/appsFeatures/remoteControl/remoteControl.html#examples)
 
-
+   - **2.3.1.4.1. Digital**
+        - 2.3.1.4.1.1. Blink
+        - 2.3.1.4.1.2. Bar graph with LEDs
+        - 2.3.1.4.1.3. Push button and turn on LED diode
+        - 2.3.1.4.1.4. Interactive LED bar graph
+   - **2.3.1.4.2. Analog**
+        - 2.3.1.4.2.1. Read analog voltage on slow analog input
+        - 2.3.1.4.2.2. Set analog voltage on slow analog output
+        - 2.3.1.4.2.3. Interactive voltage setting on slow analog output
+        - 2.3.1.4.3. Generating signals at RF outputs
+        - 2.3.1.4.3.1. Generate continuous signal
+        - 2.3.1.4.3.2. Generate signal pulses
+        - 2.3.1.4.3.3. Generate signal on external trigger
+        - 2.3.1.4.3.4. Custom waveform signal generation
+        - 2.3.1.4.3.5. Generate two synchronous signal
+        - 2.3.1.4.3.6. Generate two burst asynced signal
+        - 2.3.1.4.4. Acquiring signals at RF inputs
+        - 2.3.1.4.4.1. On trigger signal acquisition
+        - 2.3.1.4.4.2. Signal acquisition on external trigger
+        - 2.3.1.4.4.3. Synchronised one pulse signal generation and acquisition
+        - 2.3.1.4.4.4. Generating a signal and checking its shape
+        - 2.3.1.4.4.5. Sampling rate and decimations
+   - **2.3.1.4.5. Digital communication interfaces**
+        - 2.3.1.4.5.1. I2C
+        - 2.3.1.4.5.2. I2C (HW api)
+        - 2.3.1.4.5.3. I2C (HW api for 250-12 only)
+        - 2.3.1.4.5.4. SPI
+        - 2.3.1.4.5.5. SPI (HW api)
+        - 2.3.1.4.5.6. UART
+        - 2.3.1.4.5.7. UART (HW api)
+    - Additional examples: **Add a button to control LED**
 ## Other RP LIA
 - [ ] 27. Review this **verilog LIA** [ ahesse93/RedPitaya_LockInAmplifier](https://github.com/ahesse93/RedPitaya_LockInAmplifier)
 - [ ] 28. Review [github lock-in-amplifier ](https://github.com/topics/lock-in-amplifier)  projects
