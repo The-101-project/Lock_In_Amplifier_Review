@@ -6,6 +6,7 @@
 # Lock_In_Amplifier_Review
 
 * [analog_devices](analog_devices.md)
+* [standford_research](standford_research.md)
 
 ## Contents
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
@@ -26,7 +27,6 @@
     - [Biofeedback device](#biofeedback-device)
   - [Publications](#publications)
   - [References](#references)
-  - [Slideck embedded to readme](#slideck-embedded-to-readme)
   - [Tag cloud](#tag-cloud)
 
 <!-- /code_chunk_output -->
@@ -135,46 +135,6 @@ width = 500
 
 ----
 
-
-##  Slideck embedded to readme
-
-A summary on the Analog-Devices Lock In ICs/options
-
-----
-
-<img src="img/Slide1.PNG" width = 800 />
-
-----
-
-<img src="img/Slide2.PNG" width = 800 />
-
-----
-
-<img src="img/Slide3.PNG" width = 800 />
-
-----
-
-<img src="img/Slide4.PNG" width = 800 />
-
-----
-
-<img src="img/Slide5.PNG" width = 800 />
-
-----
-
-<img src="img/Slide6.PNG" width = 800 />
-
-----
-
-<img src="img/Slide7.PNG" width = 800 />
-
-----
-
-<img src="img/Slide8.PNG" width = 800 />
-
-----
-
-<img src="img/Slide9.PNG" width = 800 />
 
 
 
