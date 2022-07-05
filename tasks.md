@@ -125,3 +125,7 @@ measurements and experiment active control](https://notablesdelaciencia.conicet.
         - [x] Ramp period: for 1800 points around resonance--> 3min (1800points x 0.1s = 180s)
         - [ ] Modulation
 - [ ] 40. Ask DAC/ADC board schematic
+
+----
+
+- [ ] 41. Repeat task 26 workflow
