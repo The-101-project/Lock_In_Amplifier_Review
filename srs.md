@@ -3,7 +3,7 @@
 
 An overview and mindmap of the `SRS_Lock-In_Amplifiers_HIGHLIGHTS.pdf`
 
-* [BACK_TO_TOP](./README.md)
+* [BACK_TO_TOP](README.md)
 
 
 mindmap created with `Markdown Mindmap Preview' VSC extension

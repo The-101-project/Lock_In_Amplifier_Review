@@ -1,6 +1,6 @@
 # noise
 
-* [BACK_TO_TOP](./README.md)
+* [BACK_TO_TOP](README.md)
 
 
 

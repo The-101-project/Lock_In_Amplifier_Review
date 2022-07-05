@@ -2,7 +2,7 @@
 [![](https://img.shields.io/badge/remote-Lock_In_Amplifier_Review-green.svg)](https://github.com/The-101-project/LockInAmplifierReview) 
 [![](https://img.shields.io/badge/local-F:\prj\electronics\Lock_In_Amplifier_Review-orange.svg)](https://github.com/soldering-channel)
 
-[back to top](./README.md)
+[back to top](README.md)
 
 # qepas_redpitaya
 

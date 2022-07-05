@@ -1,6 +1,6 @@
 # lock-in-pid
 
-* [BACK_TO_TOP](./README.md)
+* [BACK_TO_TOP](README.md)
 
 
 ## Oscilloscope+Lock-In+PID
