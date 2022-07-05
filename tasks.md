@@ -4,7 +4,7 @@
 
 # tasks
 
-* [BACK_TO_TOP](./README.md)
+* [BACK_TO_TOP](README.md)
 
 
 ## Generic
@@ -24,9 +24,9 @@
 
 
 ## Orders
-- [ ] Order more Redpitaya boards
+- [x] Order more Redpitaya boards
 - [ ] Order Redpitaya compatible WiFi dongles
-- [ ] Order RedPitaya connectors
+- [x] Order RedPitaya connectors
 
 ## Testing
 - [x] Find the Ethernet cable
