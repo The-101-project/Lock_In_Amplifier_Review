@@ -59,10 +59,18 @@ width = 600
 />
 </p>
 
+## StN -backplane
 Altium pcbLib `RED-PITAYA-BOTTOM-UP` updated with heatsing PCB opening
 <p align="center">
 <img
 src="img/39.PNG"
+width = 600
+/>
+</p>
+
+<p align="center">
+<img
+src="img/41.PNG"
 width = 600
 />
 </p>
