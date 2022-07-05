@@ -45,7 +45,7 @@
 - [ ] 24. Download the papers mentioned in [Lock-in+PID](https://marceluda.github.io/rp_lock-in_pid/)
 
 ## Xilinx Vivado 
-- [ ] 25. View Xilinx Vivado related video [Tutorial 01 How to do Bare Metal Programming with Red Pitaya](https://www.youtube.com/watch?v=XJbEn_-hjYc)
+- [x] 25. View Xilinx Vivado related video [Tutorial 01 How to do Bare Metal Programming with Red Pitaya](https://www.youtube.com/watch?v=XJbEn_-hjYc)
     -  This tutorial shows you how to start bare metal programming with Red Pitaya. It uses one of the scripts that is provided by Red Pitaya to create a Vivado project and the rest is standard workflow.
         - 1. Making a Vivado project
         - 2. Exporting hardware from Vivado to Xilinx SDK
@@ -55,7 +55,6 @@
         - 6. Making boot image (BOOT.bin)
         - 7. Copying boot image to SD-Card FAT partition
         - 8. Running it on Red Pitaya
-    - [ ] Repeat the workflow
 
 ## Programming
 
