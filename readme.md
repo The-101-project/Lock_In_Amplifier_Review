@@ -5,8 +5,20 @@
 
 # Lock_In_Amplifier_Review
 
+## Local Links
+
 * [analog_devices](analog_devices.md)
 * [standford_research](standford_research.md)
+* [tasks](tasks.md)
+* [oscilloscopeLOCKIN](oscilloscopeLOCKIN.md)
+* [noise](noise.md)
+* [srs](srs.md)
+* [RedPitaya](RedPitaya.md)
+* [RedPitayaLIA](RedPitayaLIA.md)
+* [lock-in-PID.md](lock-in-pid.md)
+* [RepLIA](RePLIA.md)
+* [QEPAS Red Pitaya](qepas_redpitaya.md)
+
 
 ## Contents
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
@@ -14,45 +26,17 @@
 <!-- code_chunk_output -->
 
 - [Lock_In_Amplifier_Review](#lock_in_amplifier_review)
-  - [Contents](#contents)
   - [Local Links](#local-links)
-    - [Tasks](#tasks)
-    - [Generic](#generic)
-    - [Red Pitaya general](#red-pitaya-general)
-    - [LIA with Red Pitaya](#lia-with-red-pitaya)
+  - [Contents](#contents)
   - [Overview](#overview)
-  - [SRS Standford Research Systems Manual](#srs-standford-research-systems-manual)
   - [Use-cases Input signal requirements](#use-cases-input-signal-requirements)
     - [Photo-acoustic Laser Gas Analyzer](#photo-acoustic-laser-gas-analyzer)
     - [Biofeedback device](#biofeedback-device)
   - [Publications](#publications)
   - [References](#references)
-  - [Tag cloud](#tag-cloud)
 
 <!-- /code_chunk_output -->
 
-----
-
-## Local Links
-
-### Tasks
-* [tasks](./tasks.md)
-
-### Generic
-* [oscilloscopeLOCKIN](./oscilloscopeLOCKIN.md)
-* [noise](./noise.md)
-* [srs](./srs.md)
-
-### Red Pitaya general
-* [RedPitaya](./RedPitaya.md)
-
-### LIA with Red Pitaya
-* [RedPitayaLIA](./RedPitayaLIA.md)
-* [lock-in-PID.md](./lock-in-pid.md)
-* [RepLIA](./RePLIA.md)
-* [QEPAS Red Pitaya](./qepas_redpitaya.md)
-
-----
 
 ## Overview
 Review on Lock In Amplifier Technology in order to design/build a LIA PCB.
@@ -85,20 +69,6 @@ It seems (in the current stage of our research) the best options are:
    * Instrument type interfaces PyVISA and more
    * *The effort to create a LIA instrument, is focused to PC Software engineering*
  
-
-## SRS Standford Research Systems Manual
-* SRS [Application Note #3: About Lock-In Amplifiers](https://web.physics.indiana.edu/courses/p451/background_info/SRS_Lock-In_Amplifiers.pdf)
-
-* **Pages 1 to 9 have a very good explanation on LIA operation and considerations.**   
-* Then in pages 10 to 78 is the user manual for the MODEL SR530 LOCK-IN AMPLIFIER
-
-> local pdf copy with HIGHLIGHTS for pages 1-9
-<p align="center">
-<img
-src="img/21.PNG"
-width = 500
-/>
-</p>
 
 ----
 
@@ -134,17 +104,3 @@ width = 500
 ](https://github.com/SingularitySurfer/SingularitySurfer-FPGA-Lock-In-Amplifier)
 
 ----
-
-
-
-
-## Tag cloud
-
-
-
-<p align="center">
-<img
-src="img/18.PNG"
-width = 800
-/>
-</p>
