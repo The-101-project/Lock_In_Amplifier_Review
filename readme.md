@@ -5,11 +5,23 @@
 
 # Lock_In_Amplifier_Review
 
+## Overview
+Review on Lock In Amplifier Technology in order to design/build a LIA PCB.
+
+This review had started [in my niwiki](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier) targeting a LIA design to be used with unmodulated Reference frequency up to 10 MHz.  The focus initally was on Analogue LIA technology, based on older and newest Analog-Devices ICs, and if possible to discrete ICs implementations [like this](http://www.cappels.org/dproj/dlmom/dlmom.html).
+
+----
+
+It seems (in the current stage of our research) the best options are:
+* RedPitaya board, being complete with ADC,DAC, and used in scientific publications as LIA
+* DE0-Nano board, having good price, small size and Altera FPGA
+
 ## Local Links
 
+* [tasks](tasks.md)
+----
 * [analog_devices](analog_devices.md)
 * [standford_research](standford_research.md)
-* [tasks](tasks.md)
 * [oscilloscopeLOCKIN](oscilloscopeLOCKIN.md)
 * [noise](noise.md)
 * [srs](srs.md)
@@ -26,9 +38,9 @@
 <!-- code_chunk_output -->
 
 - [Lock_In_Amplifier_Review](#lock_in_amplifier_review)
+  - [Overview](#overview)
   - [Local Links](#local-links)
   - [Contents](#contents)
-  - [Overview](#overview)
   - [Use-cases Input signal requirements](#use-cases-input-signal-requirements)
     - [Photo-acoustic Laser Gas Analyzer](#photo-acoustic-laser-gas-analyzer)
     - [Biofeedback device](#biofeedback-device)
@@ -38,16 +50,7 @@
 <!-- /code_chunk_output -->
 
 
-## Overview
-Review on Lock In Amplifier Technology in order to design/build a LIA PCB.
 
-This review had started [in my niwiki](http://www.emboxit.net/niwiki/doku.php?id=lock_in_amplifier) targeting a LIA design to be used with unmodulated Reference frequency up to 10 MHz.  The focus initally was on Analogue LIA technology, based on older and newest Analog-Devices ICs, and if possible to discrete ICs implementations [like this](http://www.cappels.org/dproj/dlmom/dlmom.html).
-
-----
-
-It seems (in the current stage of our research) the best options are:
-* RedPitaya board, being complete with ADC,DAC, and used in scientific publications as LIA
-* DE0-Nano board, having good price, small size and Altera FPGA
 
  
  ## FPGA boards
@@ -74,6 +77,7 @@ It seems (in the current stage of our research) the best options are:
 
 
 ## Use-cases Input signal requirements
+
 ### Photo-acoustic Laser Gas Analyzer
 * Signal level we get from a QEPAS Laser Gas Analyzer photoacoustic sensor: 30pA
 * Max Output of the  preamplifier: 300 μV
